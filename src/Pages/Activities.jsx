@@ -41,11 +41,11 @@ const Activities = () => {
             <img src={Stock1} alt="" className='md:w-[38vw] py-4'/>
           </div>
           <div>
-            <div className='bg-[#F7E8D0] md:px-10 px-6 py-6 md:rounded-2xl rounded-lg md:w-[38vw] mb-4'>
+            <div className='bg-[#F7E8D0] md:px-10 px-6 py-6 md:rounded-2xl rounded-lg  mb-4'>
               <h2 className='text-black/70 text-xl font-bold'>Self is the Key.</h2>
             </div>
-              <img src={Stock2} alt="" className='md:w-[38vw] mb-4' />
-              <img src={Stock3} alt="" className='md:w-[38vw]' />
+              <img src={Stock2} alt="" className='md:h-[49vh] mb-4' />
+              <img src={Stock3} alt="" className='md:h-[57vh]' />
           </div>
         </div>
 
