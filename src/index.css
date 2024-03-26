@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.hero-button {
+  background-color: #F1DEC0; /* Replace with the actual color of the button */
+  color: black; /* Replace with the actual color of the text */
+  padding: 10px 26px; /* Adjust padding to match the size of the button */
+  border-radius: 120px; /* Adjust border-radius for the desired roundness */
+  border: none; /* No border, or set to '1px solid #color' if there is a border */
+  font-family: 'Arial', sans-serif; /* Replace with the actual font-family */
+  font-size: 14px; /* Replace with the actual font-size */
+  font-weight: 700;
+  text-decoration: none; /* Assuming it's a link, this removes underline */
+  display: inline-block; /* Allows setting padding and dimensions */
+  cursor: pointer; /* Changes the cursor to signify it's clickable */
+  transition: background-color 0.3s; /* Smooth transition for hover effect */
+}
+
+.hero-button:hover {
+  background-color: #c8baa3; /* Darker shade for hover effect, adjust color accordingly */
+}
