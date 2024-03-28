@@ -2,7 +2,7 @@ import {Link} from "react-router-dom"
 import Logo from "../assets/Logo.svg"
 const Footer = () => {
   return (
-    <div className='md:px-20 px-6 md:py-4 pt-12 pb-6 flex flex-col overflow-x-hidden bg-[#F7E8D0]'>
+    <div className='md:px-[10vw] px-6 md:py-4 pt-12 pb-6 flex flex-col overflow-x-hidden bg-[#F7E8D0]'>
         <div className='flex md:flex-row flex-col md:py-12 py-0 justify-between'>
             
             <div className='flex flex-col flex-end mb-8'>
@@ -19,11 +19,9 @@ const Footer = () => {
                 <Link to="/contact"><h1 className='font-regular text-base mb-5'>Contact</h1></Link>
             </div>
             <div className=''>
-                <h1 className='font-semibold text-lg mb-6'>Vegetables</h1>
-                <Link to="/"><h1 className='font-regular text-base mb-5'>Broccoli</h1></Link>
-                <Link to="/activities"><h1 className='font-regular text-base mb-5'>Cabbage</h1></Link>
-                <Link to="/facilities"><h1 className='font-regular text-base mb-5'>Lettuce</h1></Link>
-                <Link to="/about"><h1 className='font-regular text-base mb-5'>Carrot</h1></Link>
+                <h1 className='font-semibold text-lg mb-6'>Contact us</h1>
+                <Link><h1 className='font-regular text-base mb-5'>Phone</h1></Link>
+                <Link><h1 className='font-regular text-base mb-5'>Email</h1></Link>
             </div>
            
             <div>

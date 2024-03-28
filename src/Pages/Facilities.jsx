@@ -8,11 +8,12 @@ import Mindfulness from "../assets/Facilities/mindfullness.png"
 const Facilities = () => {
   return (
     <div>
-        <div className='flex md:flex-row flex-col md:items-center justify-between md:mx-[10vw] px-6 md:mt-36 mt-2'>
-            <img src={Property} alt="" className="md:w-[30vw]"/>
+        <div className='flex md:flex-row flex-col md:items-center justify-between md:mx-[10vw] px-6 md:mt-36 mt-[10vh]'>
+            <img src={Property} alt="" className="md:w-[37vw]"/>
             <div className='flex flex-col'>
-                <h1 className='md:text-4xl font-semibold text-2xl md:mb-20 mt-8 mb-4'>Property Description</h1>
-                <p className='md:w-[40vw]'>A refreshing, delightful, and distraction-free mindful breathing companion to get you through the day.</p>
+                <h1 className='md:text-4xl font-semibold text-2xl md:mb-8 mb-4'>Property Description</h1>
+                <p className='md:w-[35vw] text-sm'>Aanantha Farms offers a rejuvenating escape that is streched across 14 acres, with 1.5 acres of open space. The ground floor features a spacious lounge, work station , fully-equipped kitchen area, and a cozy drawing room with a single bedroom. Upstairs, we have two additional bedrooms, a cozy living space, and a coffee/tea station. Whether you prefer the ground floor's convenience or a lush green view from the first floor, the choice is at your disposal. Soak yourself in the tranquil vibes of the Aanantha Farms and strike the ideal harmony between productivity and peace.</p>
+                <br />
                 <ol className="list-decimal px-4">
                     <li className="">1.5 acre total foot area</li>
                     <li>14 acre Property area</li>
