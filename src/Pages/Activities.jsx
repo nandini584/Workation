@@ -10,7 +10,7 @@ import SI4 from "../assets/Home/dest4.svg"
 import Kite from "../assets/Activities/kite.png"
 import Tug from "../assets/Activities/tug.png"
 import Badminton from "../assets/Activities/badminton.png"
-import Farms from "../assets/Activities/farms.png"
+import Farms from "../assets/Activities/farms.svg"
 import Navbar from '../Components/NavbarDark';
 import NavbarMini from '../Components/NavbarMini';
 const Activities = () => {
@@ -39,7 +39,7 @@ const Activities = () => {
             <img src={Activity} alt="Activity"/>
         </div>
 
-        <div className='flex md:flex-row flex-col gap-6 items-center justify-between md:mx-[10vw] px-6 md:my-20'>
+        <div className='flex md:flex-row flex-col gap-6 items-center justify-between md:mx-[10vw] px-6 md:mt-20'>
           <div className='flex flex-col'>
             <div className='bg-[#F7E8D0] md:px-16 px-6 md:py-12 pt-8 md:rounded-2xl rounded-lg md:w-[38vw] pb-4 mt-4'>
               <h1 className='text-[#56B3C2] text-2xl font-bold md:mb-8 mb-4 font-playfair'>Mindful Meadows Meditation retreats</h1>
@@ -66,7 +66,8 @@ Join us at Aanantha Farms and embark on a transformative journey of Ashtanga Vin
           </div>
         </div>
 
-        <div className='md:mx-[10vw] mx-6 md:mb-20 mb-8'>
+        <div className='md:mx-[10vw] mx-6 md:mb-20 -mt-10 mb-8'>
+          <h1 className='flex flex-col items-center relative top-72 justify-center text-6xl text-center px-20 text-white font-playfair'>Discover your inner zen: It's time to meet yourself</h1>
           <img src={Farms} alt="" className='rounded-2xl'/>
         </div>
 
