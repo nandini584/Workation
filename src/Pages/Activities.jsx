@@ -11,9 +11,17 @@ import Kite from "../assets/Activities/kite.png"
 import Tug from "../assets/Activities/tug.png"
 import Badminton from "../assets/Activities/badminton.png"
 import Farms from "../assets/Activities/farms.png"
+import Navbar from '../Components/NavbarDark';
+import NavbarMini from '../Components/NavbarMini';
 const Activities = () => {
   return (
     <div>
+      <div className='inline md:hidden z-[100]'>
+          <NavbarMini/>
+      </div>
+      <div className='absolute top-0 hidden md:inline'>
+      <Navbar/>
+      </div>
         <div className='md:mx-[10vw] mx-6 md:mt-[12vh] mt-[10vh]'>
             <div className='absolute flex flex-col items-center md:w-[80vw] md:top-[32vh] top-20'>
                 <h1 className="text-white font-semibold md:text-5xl text-2xl w-[80vw] text-center">Mindful breathing & Meditation</h1>

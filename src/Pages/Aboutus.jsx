@@ -6,9 +6,17 @@ import s2 from "../assets/Activities/s2.png"
 import s3 from "../assets/Activities/s3.png"
 import s4 from "../assets/Activities/s4.png"
 import Meditation from "../assets/Activities/meditation.png"
+import Navbar from '../Components/NavbarDark';
+import NavbarMini from '../Components/NavbarMini';
 const Aboutus = () => {
   return (
     <div>
+      <div className='inline md:hidden z-[100]'>
+          <NavbarMini/>
+      </div>
+      <div className='absolute top-0 hidden md:inline'>
+      <Navbar/>
+      </div>
       <div className='md:mx-[10vw] mx-6 bg-[#F7E8D0] rounded-2xl md:p-4 p-2 flex flex-col md:mt-24 mt-4'>
         <div className='flex flex-row justify-between mb-4'>
           <img src={s1} alt="" className='w-[34vw]'/>

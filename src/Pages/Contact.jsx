@@ -2,6 +2,11 @@
 // import Whatsapp from "../../Images/Socials/Social Icons.svg"
 // import Gmail from "../../Images/Socials/Rectangle 40.svg"
 import { Link } from "react-router-dom";
+import Navbar from '../Components/NavbarDark';
+import NavbarMini from '../Components/NavbarMini';
+import PhoneInTalkIcon from '@mui/icons-material/PhoneInTalk';
+import LocationOnIcon from '@mui/icons-material/LocationOn';
+import EmailIcon from '@mui/icons-material/Email';
 // import emailjs from  '@emailjs/browser';
 // import {useState, useRef} from 'react'
 // import PhoneInput from 'react-phone-input-2'
@@ -43,48 +48,58 @@ function Contact() {
   //     e.target.reset();
   // };
   return (
-    <div className='flex md:flex-row flex-col items-center justify-between md:px-20 px-6 w-[100vw] md:mt-32 mt-6 bg-gradient-contact'>
+    <div>
+        <div className='inline md:hidden z-[100]'>
+          <NavbarMini/>
+      </div>
+      <div className='absolute top-0 hidden md:inline'>
+      <Navbar/>
+      </div>
+    <div className='flex md:flex-row flex-col items-center justify-between md:mt-24 mx-[10vw] mt-6 bg-gradient-contact'>
         <div className='flex flex-col'>
             {/* <h1 className='text-sm font-Secondary-bold text-[#1B2377] md:mb-10 mb-4'><Signin/></h1> */}
-            <h1 className='md:text-4xl text-2xl font-Secondary-bold text-black md:mb-6 mb-2'>Get Your Queries Resolved</h1>
-            <div className='flex flex-row items-center'>
-            <a href="https://wa.me/971564159009?text=Hi%20MYRO%20Team,%20I%20would%20like%20to%20know%20more%20about%20MYRO%20and%20how%20I%20can%20leverage%20its%20precise%20painting%20in%20my%20projects." target="_blank">
-            {/* <img src={Whatsapp} alt="" className='mr-3 w-6 hover:-translate-y-2 transition-all duration-300' /> */}
-            </a>
-            <Link
-            to='#'
-            target="_blank"
-            
-        >
-            {/* <img src={Gmail} alt="" className='w-10 hover:-translate-y-2 transition-all duration-300' />  */}
-        </Link>
+            <div className="bg-[#56B3C2] w-[40vw] px-8 py-16 rounded-2xl ">
+            <h1 className='md:text-4xl text-2xl font-playfair text-white md:mb-40 mb-2 font-bold'>Get Your Queries Resolved</h1>
+            <div className="flex flex-row mb-8">
+            <PhoneInTalkIcon className="text-white mr-2"/>
+            <h1 className="text-white text-lg font-semibold">+1012 3456 789</h1>
+            </div>
+            <div className="flex flex-row mb-8">
+                <LocationOnIcon className="text-white mr-2"/>
+            <h1 className="text-white text-lg font-semibold">132 Dartmouth Street Boston, <br /> Massachusetts 02156 United States</h1>
+            </div>
+            <div className="flex flex-row">
+                <EmailIcon className="text-white mr-2"/>
+            <h1 className="text-white text-lg font-semibold">demo@gmail.com</h1>
+            </div>
             </div>
             {/* <img src={Contact} alt="" /> */}
         </div>
         {/* <ToastContainer/> */}
         <form action="" >
-            <div className='md:py-12 md:px-12 p-6 drop-shadow-form md:w-[35vw] w-[85vw] md:rounded-2xl rounded-lg bg-white md:mb-14 mb-7'>
+            <div className='md:py-12 md:px-12 p-6 drop-shadow-form md:rounded-2xl rounded-lg bg-white'>
         <div className='md:mb-10 mb-7'>
                 <h1 className='text-xs text-black opacity-60 font-Secondary-medium md:mb-3 mb-1'>Full Name</h1>
-                <input required type="text" name="from_name" placeholder='Name' className='outline-none p-2 rounded-md border-[1.5px] border-gray-300 font-Secondary-medium text-sm md:w-[19.7vw] w-[60vw]'/>
+                <input required type="text" name="from_name" placeholder='Name' className='outline-none p-2 rounded-md border-[1.5px] border-gray-300 font-Secondary-medium text-sm md:w-[28vw] w-[60vw]'/>
         </div>
         <div className='md:mb-10 mb-7'>
                 <h1 className='text-xs text-black opacity-60 font-Secondary-medium md:mb-3 mb-1'>Email</h1>
-                <input required type="email" name="from_email" placeholder='Email' className='outline-none p-2 rounded-md border-[1.5px] border-gray-300 font-Secondary-medium text-sm md:w-[19.7vw] w-[60vw]' />
+                <input required type="email" name="from_email" placeholder='Email' className='outline-none p-2 rounded-md border-[1.5px] border-gray-300 font-Secondary-medium text-sm md:w-[28vw] w-[60vw]' />
         </div>
        <div className="md:mb-10 mb-7">
             <h1 className='text-xs text-black opacity-60 font-Secondary-medium md:mb-3 mb-1'>Phone Number</h1>
-                <input required type="phone" name="from_phone" placeholder='Phone Number' className='outline-none p-2 rounded-md border-[1.5px] border-gray-300 font-Secondary-medium text-sm md:w-[19.7vw] w-[60vw]' />
+                <input required type="phone" name="from_phone" placeholder='Phone Number' className='outline-none p-2 rounded-md border-[1.5px] border-gray-300 font-Secondary-medium text-sm md:w-[28vw] w-[60vw]' />
        </div>
         <div className='md:mb-10 mb-7'>
                 <h1 className='text-xs text-black opacity-60 font-Secondary-medium mb-3'>Message</h1>
-                <textarea required type="text" name="message"  placeholder='Write your message.....' cols="10" className='outline-none p-2 rounded-md border-[1.5px] border-gray-300 font-Secondary-medium md:text-sm text-xs md:w-[19.7vw] w-[60vw]'/>
+                <textarea required type="text" name="message"  placeholder='Write your message.....' cols="10" className='outline-none p-2 rounded-md border-[1.5px] border-gray-300 font-Secondary-medium md:text-sm text-xs md:w-[28vw] w-[60vw]'/>
         </div>
         <div>
             <button type="submit" className='font-Secondary-semibold bg-[#56B3C2] text-white rounded-full font-bold md:text-sm text-xs py-3 px-8 contact-button' >Send Message</button>
         </div>
         </div>
         </form>
+    </div>
     </div>
   )
 }

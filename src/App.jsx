@@ -13,12 +13,7 @@ const App = () => {
     <div>
       <Router>
     <div>
-      <div className='inline md:hidden z-[100]'>
-          <NavbarMini/>
-      </div>
-      <div className='absolute top-0 hidden md:inline'>
-      <Navbar/>
-      </div>
+      
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/activities" element={<Activities />} />

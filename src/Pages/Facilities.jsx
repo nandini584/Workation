@@ -5,9 +5,17 @@ import SI3 from "../assets/Home/stock2 1.png"
 import Physiotherapy from "../assets/Facilities/physiotherapy.png"
 import Neurotherapy from "../assets/Facilities/neurotherapy.png"
 import Mindfulness from "../assets/Facilities/mindfullness.png"
+import Navbar from '../Components/NavbarDark';
+import NavbarMini from '../Components/NavbarMini';
 const Facilities = () => {
   return (
     <div>
+        <div className='inline md:hidden z-[100]'>
+          <NavbarMini/>
+      </div>
+      <div className='absolute top-0 hidden md:inline'>
+      <Navbar/>
+      </div>
         <div className='flex md:flex-row flex-col md:items-center justify-between md:mx-[10vw] px-6 md:mt-36 mt-[10vh]'>
             <img src={Property} alt="" className="md:w-[30vw]"/>
             <div className='flex flex-col'>

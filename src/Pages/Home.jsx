@@ -23,7 +23,8 @@ import Explore from "../assets/Home/explore.svg";
 import Meditation from "../assets/Home/meditation.svg";
 import Workation from "../assets/Home/workation.svg";
 import Naturalfarms from "../assets/Home/naturalfarms.svg";
-
+import Navbar from '../Components/Navbar';
+import NavbarMini from '../Components/NavbarMini';
 const Home = () => {
     const swiperRef = useRef(null);
   const swiperRefMob = useRef(null);
@@ -46,6 +47,12 @@ const Home = () => {
   };
   return (
     <div className='w-[100vw] overflow-hidden'>
+      <div className='inline md:hidden z-[100]'>
+          <NavbarMini/>
+      </div>
+      <div className='absolute top-0 hidden md:inline'>
+      <Navbar/>
+      </div>
       <div>
         <div className='flex justify-center items-center h-screen'>
   <div className='text-center p-6'>
@@ -99,28 +106,28 @@ At aanantha farms , it's not merely a weekend getaway – it's a conscious strid
                 <button className='md:px-8 px-4 md:py-3 py-2 border-[#56B3C2] text-[#56B3C2] font-bold md:text-sm text-xs rounded-full border-2'>Learn More</button>
             </div>
             <div>
-                <img src={Whorv} alt="" className='md:w-[32vw] my-6'/>
+                <img src={Whorv} alt="" className='md:w-[30vw] my-6'/>
             </div>
         </div>
         <div className='bg-[#F7E8D0] md:px-[10vw] px-6 md:py-[5vh] py-6'>
-        <h1 className='md:text-4xl text-2xl md:mb-20 mb-6 font-semibold'>Destination Highlights</h1>
+        <h1 className='md:text-4xl text-2xl md:mb-20 mb-6 font-semibold font-playfair'>Destination Highlights</h1>
             <p className='md:text-lg text-base'>Our top attractions</p>
             <div className='flex flex-row items-center flex-wrap gap-6 justify-between md:mt-8 mt-4'>
                 <div>
                     <img src={SI1} alt="" className='md:w-64 rounded-xl'/>
-                    <h1 className='font-bold text-black/70 mt-2'>Sunday Drum circles</h1>
+                    <h1 className='font-medium text-black/70 mt-2'>Sunday Drum circles</h1>
                 </div>
                 <div>
                     <img src={SI2} alt="" className='md:w-64 rounded-xl'/>
-                    <h1 className='font-bold text-black/70 mt-2'>Mindfulness Meditation</h1>
+                    <h1 className='font-medium text-black/70 mt-2'>Mindfulness Meditation</h1>
                 </div>
                 <div>
                     <img src={SI3} alt="" className='md:w-64 rounded-xl'/>
-                    <h1 className='font-bold text-black/70 mt-2'>Ashtaang Yoga Sessions</h1>
+                    <h1 className='font-medium text-black/70 mt-2'>Ashtaang Yoga Sessions</h1>
                 </div>
                 <div>
                     <img src={SI4} alt="" className='md:w-64 rounded-xl'/>
-                    <h1 className='font-bold text-black/70 mt-2'>Organic Farming workshop</h1>
+                    <h1 className='font-medium text-black/70 mt-2'>Organic Farming workshop</h1>
                 </div>
             </div>
         </div>
