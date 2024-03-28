@@ -5,6 +5,11 @@ import SI1 from "../assets/Home/stock 5.png"
 import SI2 from "../assets/Home/stock2 1.png"
 import SI3 from "../assets/Home/stock3 1.png"
 import SI4 from "../assets/Home/stock4 1.png"
+import stock1 from "../assets/Home/stockimg 3.png"
+import stock2 from "../assets/Home/stockimg 5.svg"
+import stock3 from "../assets/Home/stockimg 6.svg"
+import stock4 from "../assets/Home/stockimg 4.svg"
+import 'swiper/css/autoplay';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Navigation, Pagination, Scrollbar } from 'swiper/modules';
 import {useRef} from 'react'
@@ -18,6 +23,7 @@ import Explore from "../assets/Home/explore.svg";
 import Meditation from "../assets/Home/meditation.svg";
 import Workation from "../assets/Home/workation.svg";
 import Naturalfarms from "../assets/Home/naturalfarms.svg";
+
 const Home = () => {
     const swiperRef = useRef(null);
   const swiperRefMob = useRef(null);
@@ -39,20 +45,55 @@ const Home = () => {
     }
   };
   return (
-    <div>
-        <div className='mt-16 md:mt-0'>
-        <div className='absolute md:w-[60vw] md:top-[30vh] md:left-[10vw] pl-6'>
-        <h1 className='md:text-5xl text-3xl mt-10 md:mt-0 text-white font-semibold mb-6'>Take a leap into self-discovery</h1>
-        <h2 className='md:text-xl text-sm text-white md:w-[50vw] hidden md:inline-block md:mb-12'>Book yourself for an ayurvedic spree, nourishing and revitalising your body and soul.</h2>
-        <button className='md:hero-button text-black font-semibold md:text-lg md:px-8 md:py-3 text-xs px-4 py-2 bg-[#F7E8D0] rounded-full'>Book Now</button>
+    <div className='w-[100vw] overflow-hidden'>
+      <div>
+        <div className='flex justify-center items-center h-screen'>
+  <div className='text-center p-6'>
+    <h1 className='text-3xl md:text-7xl mt-10 md:mt-0 text-white font-semibold mb-6 font-playfair'>Take a leap into self-discovery</h1>
+    <h2 className='text-sm md:text-2xl text-white md:w-[100vw] mb-12'>Book yourself for an ayurvedic spree, nourishing and revitalising your body and soul.</h2>
+    <button className='text-black font-bold text-xs md:text-lg px-4 md:px-8 py-2 md:py-3 bg-[#F7E8D0] rounded-full transition duration-300 ease-in-out transform hover:scale-105 hover:bg-white hover:text-[#56B3C2] hover:shadow-lg'>Book Now</button>
+  </div>
+</div>
+<img src={Hero} alt="" className='w-full absolute top-0 left-0 z-[-1]'/>
+      </div>
+
+
+      <div className='flex flex-col items-center mt-24 mb-8'>
+        <h1 className=' text-[#56B3C2] font-medium text-lg mb-4'>We Bring you</h1>
+        <h1 className='font-playfair text-black/80 font-bold text-5xl'>Comfortable Workation</h1>
+        <div className='mx-[10vw] mt-[8vh] flex flex-row items-center justify-center'>
+          
+        <Swiper
+          slidesPerView={1}
+          spaceBetween={20} 
+          modules={[Navigation, Pagination, Scrollbar]}
+          onSlideChange={() => console.log('slide change')}
+          onSwiper={(swiper) => (swiperRefMob.current = swiper)}
+          ref={swiperRefMob}
+          style={{ width: '75%', maxWidth: '100vw' }} 
+          navigation={true}
+        >
+          
+            <SwiperSlide>
+            <div className='flex flex-row items-center justify-center gap-8'>
+              <img src={stock2} alt="" className='w-[32vw] rounded-xl' />
+              <img src={stock4} alt="" className='w-[32vw] rounded-xl' />
+            </div>
+            </SwiperSlide>
+            <SwiperSlide>
+            <div className='flex flex-row items-center justify-center gap-8'>
+              <img src={stock1} alt="" className='w-[32vw] rounded-xl' />
+              <img src={stock3} alt="" className='w-[32vw] rounded-xl' />
+            </div>
+            </SwiperSlide>
+        </Swiper>
         </div>
-        <img src={Hero} alt="" className='w-[100vw]'/>
-        </div>
+      </div>
+
         <div className='flex md:flex-row flex-col items-center justify-between md:h-[100vh] md:mx-[10vw] mx-6'>
             <div>
-                <h1 className='md:text-4xl text-2xl mt-10 md:mb-20 mb-6 font-semibold'>Who are We?</h1>
-                <p className='md:w-[35vw] md:text-base md:mb-14 mb-6'>Nestled amidst the lush landscapes just a few kilometres away from Karnal, lies aanantha farms, a serene 15-acre organic haven dedicated solely to your overall well-being. Here, Mother nature's embrace awaits, delivering you with nourishment for your body and soul. Our sanctuary offers a variety of mindfulness retreats to help you rekindle your inner peace at our mindfulness spots, where the ancient practices of pranayama, Ashtanga yoga and the healing arts of the Ayurveda are practised under the supervision of able instructors.
-<br /> <br />
+                <h1 className='md:text-4xl text-2xl mt-10 md:mb-20 mb-6 font-semibold font-playfair'>Who are We?</h1>
+                <p className='md:w-[38vw] md:text-xl md:mb-14 mb-6'>Nestled amidst the lush landscapes just a few kilometres away from Karnal, lies aanantha farms, a serene 15-acre organic haven dedicated solely to your overall well-being. <br /><br />
 At aanantha farms , it's not merely a weekend getaway – it's a conscious stride towards a brighter and mindful experience. Join us and take that first step towards a life of harmony and wellness. 
 </p>
                 <button className='md:px-8 px-4 md:py-3 py-2 border-[#56B3C2] text-[#56B3C2] font-bold md:text-sm text-xs rounded-full border-2'>Learn More</button>
@@ -140,8 +181,6 @@ At aanantha farms , it's not merely a weekend getaway – it's a conscious strid
                 <img src={Workation} alt="" />
             </div>
             </SwiperSlide>
-           
-         
         </Swiper>
       
         </div>

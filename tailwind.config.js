@@ -5,8 +5,12 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      // Extending the theme to include custom fonts
+      fontFamily: {
+        'playfair': ['"Playfair Display"', 'serif'] // Add 'Playfair Display' font family
+      },
+    },
   },
   plugins: [],
 }
-
