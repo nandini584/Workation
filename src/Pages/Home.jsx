@@ -87,15 +87,15 @@ At aanantha farms , it's not merely a weekend getaway – it's a conscious strid
                 </div>
                 <div className='flex flex-col items-center justify-center'>
                     <img src={SI2} alt="" className='md:w-64 rounded-xl'/>
-                    <h1 className='font-medium text-black/70 mt-2'>Mindfulness Meditation</h1>
+                    <h1 className='font-medium text-black/70 mt-2'>Mindfulness Activities</h1>
                 </div>
                 <div className='flex flex-col items-center justify-center'>
                     <img src={SI3} alt="" className='md:w-64 rounded-xl'/>
-                    <h1 className='font-medium text-black/70 mt-2'>Ashtaang Yoga Sessions</h1>
+                    <h1 className='font-medium text-black/70 mt-2'>Organic Farming</h1>
                 </div>
                 <div className='flex flex-col items-center justify-center'>
                     <img src={SI4} alt="" className='md:w-64 rounded-xl'/>
-                    <h1 className='font-medium text-black/70 mt-2'>Organic Farming workshop</h1>
+                    <h1 className='font-medium text-black/70 mt-2'>Eat what you grow Initiative</h1>
                 </div>
             </div>
         </div>

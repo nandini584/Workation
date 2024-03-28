@@ -85,11 +85,11 @@ Join us at Aanantha Farms and embark on a transformative journey of Ashtanga Vin
                 </div>
                 <div>
                     <img src={SI3} alt="" className='md:w-64 w-full rounded-xl'/>
-                    <h1 className='font-bold text-black/70 mt-2'>Ashtaang Yoga Sessions</h1>
+                    <h1 className='font-bold text-black/70 mt-2'>Organic Farming</h1>
                 </div>
                 <div>
                     <img src={SI4} alt="" className='md:w-64 w-full rounded-xl'/>
-                    <h1 className='font-bold text-black/70 mt-2'>Organic Farming workshop</h1>
+                    <h1 className='font-bold text-black/70 mt-2'>Eat what you grow Initiative</h1>
                 </div>
             </div>
         </div>
