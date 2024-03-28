@@ -102,7 +102,7 @@ At aanantha farms , it's not merely a weekend getaway – it's a conscious strid
 
         <div className='flex flex-col items-center my-24'>
         <h1 className=' text-[#56B3C2] font-medium text-lg mb-4'>We Bring you</h1>
-        <h1 className='font-playfair text-black/80 font-bold text-5xl'>Comfortable Workation</h1>
+        <h1 className='font-playfair text-black/80 font-bold text-5xl'>A Comfortable Retreat</h1>
         <div className='mx-[10vw] mt-[8vh] flex flex-row items-center justify-center'>
           
         <Swiper
