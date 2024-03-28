@@ -1,10 +1,10 @@
 import React from 'react'
 import Hero from "../assets/Home/hero.png"
 import Whorv from "../assets/Home/whorv.svg"
-import SI1 from "../assets/Home/stockimg 3.png"
-import SI2 from "../assets/Home/stockimg 4.svg"
-import SI3 from "../assets/Home/stockimg 5.svg"
-import SI4 from "../assets/Home/stockimg 6.png"
+import SI1 from "../assets/Home/stock 5.png"
+import SI2 from "../assets/Home/stock2 1.png"
+import SI3 from "../assets/Home/stock3 1.png"
+import SI4 from "../assets/Home/stock4 1.png"
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Navigation, Pagination, Scrollbar } from 'swiper/modules';
 import {useRef} from 'react'
@@ -66,19 +66,19 @@ At aanantha farms , it's not merely a weekend getaway – it's a conscious strid
             <p className='md:text-lg text-base'>Our top attractions</p>
             <div className='flex flex-row items-center flex-wrap gap-6 justify-between md:mt-8 mt-4'>
                 <div>
-                    <img src={SI1} alt="" className='md:w-64'/>
+                    <img src={SI1} alt="" className='md:w-64 rounded-xl'/>
                     <h1 className='font-bold text-black/70 mt-2'>Sunday Drum circles</h1>
                 </div>
                 <div>
-                    <img src={SI2} alt="" className='md:w-64'/>
+                    <img src={SI2} alt="" className='md:w-64 rounded-xl'/>
                     <h1 className='font-bold text-black/70 mt-2'>Mindfulness Meditation</h1>
                 </div>
                 <div>
-                    <img src={SI3} alt="" className='md:w-64'/>
+                    <img src={SI3} alt="" className='md:w-64 rounded-xl'/>
                     <h1 className='font-bold text-black/70 mt-2'>Ashtaang Yoga Sessions</h1>
                 </div>
                 <div>
-                    <img src={SI4} alt="" className='md:w-64'/>
+                    <img src={SI4} alt="" className='md:w-64 rounded-xl'/>
                     <h1 className='font-bold text-black/70 mt-2'>Organic Farming workshop</h1>
                 </div>
             </div>

@@ -7,7 +7,7 @@ const Footer = () => {
             
             <div className='flex flex-col flex-end mb-8'>
                 <img src={Logo} alt="" className='w-32 md:w-28 mb-4'/>
-                <h1 className="font-Secondary-medium text-black/70 text-base mt-4 md:w-[22vw]">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut fugiat itaque debitis, hic exercitationem, magnam quos dolorum error, provident neque praesentium ex quibusdam aliquid nihil accusamus! Nemo iusto dolorem saepe.</h1>
+                <h1 className="font-Secondary-medium text-black/70 text-base mt-4 md:w-[22vw]">Book yourself for an ayurvedic spree, nourishing and revitalising your body and soul.</h1>
             </div>
             <div className='flex md:flex-row flex-col justify-between md:w-[45vw]'>
             <div className=''>
