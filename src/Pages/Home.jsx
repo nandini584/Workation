@@ -65,38 +65,6 @@ const Home = () => {
       </div>
 
 
-      <div className='flex flex-col items-center mt-24 mb-8'>
-        <h1 className=' text-[#56B3C2] font-medium text-lg mb-4'>We Bring you</h1>
-        <h1 className='font-playfair text-black/80 font-bold text-5xl'>Comfortable Workation</h1>
-        <div className='mx-[10vw] mt-[8vh] flex flex-row items-center justify-center'>
-          
-        <Swiper
-          slidesPerView={1}
-          spaceBetween={20} 
-          modules={[Navigation, Pagination, Scrollbar]}
-          onSlideChange={() => console.log('slide change')}
-          onSwiper={(swiper) => (swiperRefMob.current = swiper)}
-          ref={swiperRefMob}
-          style={{ width: '75%', maxWidth: '100vw' }} 
-          navigation={true}
-        >
-          
-            <SwiperSlide>
-            <div className='flex flex-row items-center justify-center gap-8'>
-              <img src={stock2} alt="" className='w-[32vw] rounded-xl' />
-              <img src={stock4} alt="" className='w-[32vw] rounded-xl' />
-            </div>
-            </SwiperSlide>
-            <SwiperSlide>
-            <div className='flex flex-row items-center justify-center gap-8'>
-              <img src={stock1} alt="" className='w-[32vw] rounded-xl' />
-              <img src={stock3} alt="" className='w-[32vw] rounded-xl' />
-            </div>
-            </SwiperSlide>
-        </Swiper>
-        </div>
-      </div>
-
         <div className='flex md:flex-row flex-col items-center justify-between md:h-[100vh] md:mx-[10vw] mx-6'>
             <div>
                 <h1 className='md:text-4xl text-2xl mt-10 md:mb-20 mb-6 font-semibold font-playfair'>Who are We?</h1>
@@ -131,10 +99,40 @@ At aanantha farms , it's not merely a weekend getaway – it's a conscious strid
                 </div>
             </div>
         </div>
-        <div>
-            
+
+        <div className='flex flex-col items-center my-24'>
+        <h1 className=' text-[#56B3C2] font-medium text-lg mb-4'>We Bring you</h1>
+        <h1 className='font-playfair text-black/80 font-bold text-5xl'>Comfortable Workation</h1>
+        <div className='mx-[10vw] mt-[8vh] flex flex-row items-center justify-center'>
+          
+        <Swiper
+          slidesPerView={1}
+          spaceBetween={20} 
+          modules={[Navigation, Pagination, Scrollbar]}
+          onSlideChange={() => console.log('slide change')}
+          onSwiper={(swiper) => (swiperRefMob.current = swiper)}
+          ref={swiperRefMob}
+          style={{ width: '75%', maxWidth: '100vw' }} 
+          navigation={true}
+        >
+          
+            <SwiperSlide>
+            <div className='flex flex-row items-center justify-center gap-8'>
+              <img src={stock2} alt="" className='w-[32vw] rounded-xl' />
+              <img src={stock4} alt="" className='w-[32vw] rounded-xl' />
+            </div>
+            </SwiperSlide>
+            <SwiperSlide>
+            <div className='flex flex-row items-center justify-center gap-8'>
+              <img src={stock1} alt="" className='w-[32vw] rounded-xl' />
+              <img src={stock3} alt="" className='w-[32vw] rounded-xl' />
+            </div>
+            </SwiperSlide>
+        </Swiper>
         </div>
-        <div className='mx-[10vw] my-12'>
+      </div>
+        
+        {/* <div className='mx-[10vw] my-12'>
           <div className='flex flex-row items-center justify-between w-full mb-8'>
            <h1 className=' md:text-4xl text-3xl font-semibold'>Activities</h1>
            <div className='flex flex-row md:items-center px-6 md:px-0 md:justify-center'>
@@ -190,7 +188,7 @@ At aanantha farms , it's not merely a weekend getaway – it's a conscious strid
             </SwiperSlide>
         </Swiper>
       
-        </div>
+        </div> */}
     </div>
   )
 }
