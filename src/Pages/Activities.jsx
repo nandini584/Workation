@@ -31,7 +31,7 @@ const Activities = () => {
             <img src={Activity} alt="Activity"/>
         </div>
 
-        <div className='flex md:flex-row flex-col items-center justify-between md:mx-[10vw] px-6 md:my-20'>
+        <div className='flex md:flex-row flex-col gap-6 items-center justify-between md:mx-[10vw] px-6 md:my-20'>
           <div className='flex flex-col'>
             <div className='bg-[#F7E8D0] md:px-16 px-6 md:py-12 pt-8 md:rounded-2xl rounded-lg md:w-[38vw] pb-4 mt-4'>
               <h1 className='text-[#56B3C2] text-2xl font-bold md:mb-8 mb-4'>Mindful Meadows Meditation retreats</h1>
@@ -48,13 +48,13 @@ Join us at Aanantha Farms and embark on a transformative journey of Ashtanga Vin
             <img src={Stock1} alt="" className='md:w-[38vw] py-4'/>
           </div>
           <div>
-            <div className='bg-[#F7E8D0] md:px-10 px-6 py-6 md:rounded-2xl rounded-lg md:w-[33vw] mb-4'>
+            <div className='bg-[#F7E8D0] md:px-10 px-6 py-6 md:rounded-2xl rounded-lg mb-4'>
              
               <h1 className='text-[#56B3C2] text-2xl font-bold md:mb-4 mb-4'>Ayurveda treatments</h1>
               <h2 className='text-black/70 text-sm'>At Aanantha Farms, we embrace the timeless wisdom of Ayurveda, a holistic treatment rooted in the harmony of our mind, body, and spirit. Our Ayurvedic treatments and Nadi Pariksha (pulse diagnosis) sessions offer personalized healing journeys that honor the natural rhythms of life. With over 5,000 years of tradition, Ayurveda guides us on a circular path of wellness, addressing the root cause of any imbalances in the vata, pitta or kapha causing any medical afflictions whatsoever. From rejuvenating abhyanga massages to herbal remedies personalised according to your imbalance, our Ayurvedic Chikitsa (treatments) invite you to experience the healing powers of nature.</h2>
             </div>
               <img src={Stock2} alt="" className='md:h-[48vh] w-full mb-4' />
-              <img src={Stock3} alt="" className='md:h-[56vh] w-full mb-12' />
+              <img src={Stock3} alt="" className='md:h-[55vh] w-full' />
           </div>
         </div>
 
