@@ -1,10 +1,10 @@
 import React from 'react'
 import Hero from "../assets/Home/hero.png"
 import Whorv from "../assets/Home/whorv.svg"
-import SI1 from "../assets/Home/stock 5.png"
-import SI2 from "../assets/Home/stock2 1.png"
-import SI3 from "../assets/Home/stock3 1.png"
-import SI4 from "../assets/Home/stock4 1.png"
+import SI1 from "../assets/Home/dest1.svg"
+import SI2 from "../assets/Home/dest2.svg"
+import SI3 from "../assets/Home/dest3.svg"
+import SI4 from "../assets/Home/dest4.svg"
 import stock1 from "../assets/Home/stockimg 3.png"
 import stock2 from "../assets/Home/stockimg 5.svg"
 import stock3 from "../assets/Home/stockimg 6.svg"
@@ -113,19 +113,19 @@ At aanantha farms , it's not merely a weekend getaway – it's a conscious strid
         <h1 className='md:text-4xl text-2xl md:mb-20 mb-6 font-semibold font-playfair'>Destination Highlights</h1>
             <p className='md:text-lg text-base'>Our top attractions</p>
             <div className='flex flex-row items-center flex-wrap gap-6 justify-between md:mt-8 mt-4'>
-                <div>
+                <div className='flex flex-col items-center justify-center'>
                     <img src={SI1} alt="" className='md:w-64 rounded-xl'/>
                     <h1 className='font-medium text-black/70 mt-2'>Sunday Drum circles</h1>
                 </div>
-                <div>
+                <div className='flex flex-col items-center justify-center'>
                     <img src={SI2} alt="" className='md:w-64 rounded-xl'/>
                     <h1 className='font-medium text-black/70 mt-2'>Mindfulness Meditation</h1>
                 </div>
-                <div>
+                <div className='flex flex-col items-center justify-center'>
                     <img src={SI3} alt="" className='md:w-64 rounded-xl'/>
                     <h1 className='font-medium text-black/70 mt-2'>Ashtaang Yoga Sessions</h1>
                 </div>
-                <div>
+                <div className='flex flex-col items-center justify-center'>
                     <img src={SI4} alt="" className='md:w-64 rounded-xl'/>
                     <h1 className='font-medium text-black/70 mt-2'>Organic Farming workshop</h1>
                 </div>
