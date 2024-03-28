@@ -7,6 +7,10 @@ import SI1 from "../assets/Home/stockimg 3.png"
 import SI2 from "../assets/Home/stockimg 4.png"
 import SI3 from "../assets/Home/stockimg 5.png"
 import SI4 from "../assets/Home/stockimg 6.png"
+import Kite from "../assets/Activities/kite.png"
+import Tug from "../assets/Activities/tug.png"
+import Badminton from "../assets/Activities/badminton.png"
+import Farms from "../assets/Activities/farms.png"
 const Activities = () => {
   return (
     <div>
@@ -49,8 +53,8 @@ const Activities = () => {
           </div>
         </div>
 
-        <div>
-          {/* Carousel */}
+        <div className='mx-[10vw] mb-20'>
+          <img src={Farms} alt="" className='rounded-2xl'/>
         </div>
 
         <div className='bg-[#F7E8D0] md:px-[10vw] px-6 md:py-[5vh] py-6 my-6'>
@@ -76,8 +80,13 @@ const Activities = () => {
             </div>
         </div>
 
-        <div>
-          {/* Carouselo */}
+        <div className='flex flex-col mx-[10vh] my-20'>
+          <h1 className='text-4xl font-semibold mb-14'>Reacreational Activities</h1>
+        <div className='flex flex-row items-center justify-between '>
+          <img src={Kite} alt="" className='w-[28vw] rounded-xl hover:scale-110 transition-all hover:opacity-85'/>
+          <img src={Tug} alt="" className='w-[28vw] rounded-xl hover:scale-110 transition-all hover:opacity-85'/>
+          <img src={Badminton} alt="" className='w-[28vw] rounded-xl hover:scale-110 transition-all hover:opacity-85'/>
+        </div>
         </div>
     </div>
   )

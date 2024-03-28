@@ -2,7 +2,9 @@ import Property from "../assets/Facilities/Property.png"
 import SI1 from "../assets/Home/stockimg 3.png"
 import SI2 from "../assets/Home/stockimg 4.png"
 import SI3 from "../assets/Home/stockimg 5.png"
-
+import Physiotherapy from "../assets/Facilities/physiotherapy.png"
+import Neurotherapy from "../assets/Facilities/neurotherapy.png"
+import Mindfulness from "../assets/Facilities/mindfullness.png"
 const Facilities = () => {
   return (
     <div>
@@ -35,16 +37,16 @@ const Facilities = () => {
             <h1 className='md:text-4xl text-2xl font-semibold md:mb-16 mb-4'>Health & Wellness</h1>
             <div className='flex md:flex-row flex-col items-center justify-between md:mt-8'>
                 <div>
-                    <img src={SI1} alt="" className='w-[20rem]'/>
-                    <h1 className='font-bold text-black/70 mt-2 mb-4'>Natural Farms</h1>
+                    <img src={Physiotherapy} alt="" className='w-[20rem] rounded-xl hover:scale-105 transition-all'/>
+                    <h1 className='font-bold text-black/70 mt-2 mb-4 '>Physiotherapy</h1>
                 </div>
                 <div>
-                    <img src={SI2} alt="" className='w-[20rem]'/>
-                    <h1 className='font-bold text-black/70 mt-2 mb-4'>Natural Farms</h1>
+                    <img src={Neurotherapy} alt="" className='w-[20rem] rounded-xl hover:scale-105 transition-all'/>
+                    <h1 className='font-bold text-black/70 mt-2 mb-4 '>Neurotherapy</h1>
                 </div>
                 <div>
-                    <img src={SI3} alt="" className='w-[20rem]'/>
-                    <h1 className='font-bold text-black/70 mt-2 mb-4'>Natural Farms</h1>
+                    <img src={Mindfulness} alt="" className='w-[20rem] rounded-xl hover:scale-105 transition-all'/>
+                    <h1 className='font-bold text-black/70 mt-2 mb-4 '>Mindfulness Breathing</h1>
                 </div>
             </div>
         </div>
