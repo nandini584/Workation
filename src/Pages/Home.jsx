@@ -76,10 +76,14 @@ Striving to create a space where individuals can thrive mentally, physically and
                     <img src={SI1} alt="" className='md:w-[30vw] rounded-xl hover:border-2 hover:border-[#56B3C2]'/>
                     <h1 className='font-semibold text-lg text-black/70 mt-2 font-opensans'>Weekly Activities</h1>
                 </div></Link> 
-                <div className='flex flex-col items-center justify-center'>
+                <Link to="/healing-modalities">
+                  
+                  <div className='flex flex-col items-center justify-center'>
                     <img src={SI2} alt="" className='md:w-[30vw] rounded-xl hover:border-2 hover:border-[#56B3C2]'/>
                     <h1 className='font-semibold text-lg text-black/70 mt-2 font-opensans'>Healing Modalities</h1>
                 </div>
+                  </Link>
+                  
             </div>
         </div>
 

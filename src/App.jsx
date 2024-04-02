@@ -4,7 +4,7 @@ import Contact from './Pages/Contact';
 import Footer from './Components/Footer';
 import Home from './Pages/Home';
 import Weekly from './Pages/Weekly';
-import { Healing } from '@mui/icons-material';
+import Healing from "./Pages/Healing";
 const App = () => {
   return (
     <div>
