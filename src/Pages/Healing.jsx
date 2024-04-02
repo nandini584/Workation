@@ -54,7 +54,7 @@ const Healing = () => {
         <Navbar/>
       </div>
       <div className='flex md:flex-row flex-col md:mx-[10vw] mx-6 justify-center'>
-        <div className='flex flex-col md:w-[40vw] bg-[#F7E8D0]/40 md:h-[100vh] rounded-3xl md:px-12 px-4 md:mt-28 mt-20 md:mb-10'>
+        <div className='flex flex-col md:w-[40vw] overflow-y-scroll bg-[#F7E8D0]/40 md:h-[100vh] rounded-3xl md:px-12 px-4 md:mt-28 mt-20 md:mb-10'>
           {activities.map((activity) => (
             <div key={activity.id} className='flex flex-row items-center justify-start my-5 cursor-pointer' onClick={() => setCurrentActivity(activity)}>
               <img src={activity.image} alt="" className='md:w-44 w-40 mr-6'/>
