@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import Hero from "../assets/Home/hero.png"
 import Whorv from "../assets/Home/Whorv.jpg"
 import SI1 from "../assets/Home/dest1.svg"
@@ -31,9 +32,8 @@ import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 import 'swiper/css/scrollbar';
 import 'swiper/css';
-import Navbar from '../Components/Navbar';
+import Navbar from '../Components/NavbarDark';
 import NavbarMini from '../Components/NavbarMini';
-import {Link} from "react-router-dom"
 const Home = () => {
   const swiperRefMob = useRef(null);
   return (
