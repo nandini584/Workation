@@ -1,13 +1,10 @@
-import React, {useEffect} from 'react'
-import { BrowserRouter as Router, Routes, Route, useLocation } from "react-router-dom";
-import Activities from './Pages/Activities';
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import About from './Pages/Aboutus';
 import Contact from './Pages/Contact';
 import Footer from './Components/Footer';
-import Facilities from './Pages/Facilities';
 import Home from './Pages/Home';
-import Navbar from './Components/Navbar';
-import NavbarMini from './Components/NavbarMini';
+import Weekly from './Pages/Weekly';
+import { Healing } from '@mui/icons-material';
 const App = () => {
   return (
     <div>
@@ -16,10 +13,12 @@ const App = () => {
       
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/activities" element={<Activities />} />
+        {/* <Route path="/activities" element={<Activities />} /> */}
         <Route path="/about" element={<About />} />
-        <Route path="/facilities" element={<Facilities />} />
+        {/* <Route path="/facilities" element={<Facilities />} /> */}
         <Route path="/contact" element={<Contact />} />
+        <Route path="/weekly-activities" element={<Weekly />} />
+        <Route path="/healing-modalities" element={<Healing />} />
       </Routes>
       <Footer/>
     </div>

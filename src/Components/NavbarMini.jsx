@@ -21,8 +21,8 @@ const NavbarMini = () => {
           </div>
           <div className='flex flex-col mt-4 mx-3'>
             <Link to="/"><h1 className='text-black font-Secondary-medium text-base py-4'>Home</h1></Link>
-            <Link to="/activities"><h1 className='text-black font-Secondary-medium text-base py-4'>Activities</h1></Link>
-            <Link to="/facilities"><h1 className='text-black font-Secondary-medium text-base py-4'>Facilities</h1></Link>
+            {/* <Link to="/activities"><h1 className='text-black font-Secondary-medium text-base py-4'>Activities</h1></Link> */}
+            {/* <Link to="/facilities"><h1 className='text-black font-Secondary-medium text-base py-4'>Facilities</h1></Link> */}
             <Link to="/about"><h1 className='text-black font-Secondary-medium text-base py-4'>About</h1></Link>
             <Link to="/contact"><h1 className='text-black font-Secondary-medium text-base py-4'>Contact us</h1></Link>
           </div>

@@ -59,7 +59,8 @@ function Contact() {
         <div className='flex flex-col'>
             {/* <h1 className='text-sm font-Secondary-bold text-[#1B2377] md:mb-10 mb-4'><Signin/></h1> */}
             <div className="bg-[#56B3C2] w-[40vw] px-8 py-16 rounded-2xl ">
-            <h1 className='md:text-4xl text-2xl font-playfair text-white md:mb-40 mb-2 font-bold'>Get Your Queries Resolved</h1>
+            <h1 className='md:text-4xl text-2xl font-playfair text-white md:mb-12 mb-2 font-bold'>Got Questions?</h1>
+            <h1 className='md:text-2xl text-2xl font-playfair text-white md:mb-28 mb-2 font-medium'>Get in Touch with us.</h1>
             <div className="flex flex-row mb-8">
             <PhoneInTalkIcon className="text-white mr-2"/>
             <h1 className="text-white text-lg font-semibold">+1012 3456 789</h1>
