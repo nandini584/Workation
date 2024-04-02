@@ -2,42 +2,46 @@ import React, { useState } from 'react';
 import Navbar from '../Components/NavbarDark';
 import NavbarMini from '../Components/NavbarMini';
 import SI3 from "../assets/Home/dest3.svg";
-import SI4 from "../assets/Home/dest4.svg";
+import SI22 from "../assets/Home/healing.jpg";
+import SI23 from "../assets/Home/art-therapy.jpg";
+import SI24 from "../assets/Home/movement.jpg";
+import SI25 from "../assets/Home/sound.jpg";
+import SI26 from "../assets/Home/ayurvedic.jpg";
 
 const activities = [
   {
     id: 1,
     name: 'Creative Movement Therapy',
     description: 'Discover the transformative power of Creative Movement Therapy at Anantha Grams, where movement and emotion flow together in harmony. This unique session invites you to explore and express your innermost feelings through the natural language of your body, offering a path to healing and self-discovery. In the calm of our nurturing environment, let go of constraints and find freedom in movement, guided by our expert facilitators. Suitable for all, regardless of dance skill, this therapy celebrates the joy of movement as a gateway to emotional release and personal growth. Join us, and embark on a journey to wellness that moves beyond words, into the expressive realm of creative motion.',
-    image: SI4,
+    image: SI24,
     subheading:"Move and Heal: Creative Movement Therapy"
   },
   {
     id: 2,
     name: 'Art Therapy',
     description: 'Art therapy stands as a transformative practice, harnessing the power of creative expression to navigate the complexities of human emotions. This therapeutic approach integrates various artistic mediums, allowing individuals to explore and articulate feelings that words alone may not capture. Delving into the origins and core principles of art therapy, we uncover its capacity to foster self-discovery, emotional release, and psychological healing, marking a profound journey toward mental well-being',
-    image: SI3, // Update with the correct image if available
+    image: SI23, // Update with the correct image if available
     subheading:"Pathways to Expression and Healing"
   },
   {
     id: 3,
     name: 'Reiki Healing',
     description: 'Reiki is a simple, natural and safe energy healing modality that is known to be effective in healing the whole person including mind, body and spirit. Many people have reported miraculous results including recovery from illnesses, feelings of peace, security and a sense of overall well being. To learn Reiki or receive sessions from Reiki masters, please get in touch with us directly.',
-    image: SI3, // Update with the correct image if available
+    image: SI22, // Update with the correct image if available
     subheading:"Reiki Healing: Balance and Tranquility"
   },
   {
     id: 4,
     name: 'Sound Healing',
     description: 'Discover the transformative power of Sound Healing, an ancient yet innovative therapy that harmonizes the mind, body, and spirit through the profound impact of sound and vibration. This noninvasive practice offers a sanctuary of relaxation, promoting a balance that addresses stress, anxiety, insomnia, and a spectrum of health concerns. At the core of Sound Healing lies the principle that every aspect of our being is influenced by vibrational frequencies, including our cells and the energetic chakras that govern our physical and emotional states. Through targeted sound frequencies, using instruments like tuning forks, Tibetan singing bowls, and crystal bowls, Sound Healing works to synchronize our internal frequencies, leading to a state of deep relaxation and heightened awareness known as the flow state. The therapeutic journey of Sound Healing encompasses various modalities, from the ancient art of chanting and mantra recitation to immersive sound baths and kirtan sessions. These practices facilitate emotional release, clear energetic blockages, and cultivate a profound sense of peace and well-being.',
-    image: SI3, // Update with the correct image if available
+    image: SI25, // Update with the correct image if available
     subheading:"Harmonizing Health: The Essence of Sound Healing"
   },
   {
     id: 5,
     name: 'Ayurvedic Therapy',
     description: 'Ayurvedic Therapy, an ancient healing tradition from India, is a holistic approach to health and wellness, deeply rooted in the natural wisdom of life and healing. This venerable practice, over 3,000 years old, is founded on the principle of maintaining a harmonious balance between the mind, body, spirit, and the environment, embodying the Sanskrit meaning of Ayurveda: the science of life. At the heart of Ayurvedic Therapy lies the belief that wellness depends on a delicate equilibrium among the body energies, or doshas, and that health issues stem from disruptions in this balance. To restore harmony, Ayurveda prescribes a comprehensive regimen starting with internal purification, followed by tailored diets, herbal remedies, rejuvenating massage therapies, yoga, and meditation, each meticulously aligned with an individual unique constitution. Central to Ayurvedic medicine are the natural elements used in treatments, including an extensive array of herbs, oils, and common spices, revered for their healing properties and their ability to detoxify, nourish, and revitalize the body and mind.',
-    image: SI3, // Update with the correct image if available
+    image: SI26, // Update with the correct image if available
     subheading:"Embracing Wellness: The Journey Through Ayurvedic Therapy"
   },
 ];
