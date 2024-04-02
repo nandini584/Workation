@@ -8,6 +8,7 @@ import s4 from "../assets/Activities/s4.png"
 import Meditation from "../assets/Activities/meditation.png"
 import Navbar from '../Components/NavbarDark';
 import NavbarMini from '../Components/NavbarMini';
+import stock8 from "../assets/Home/Gallery/32.png"
 const Aboutus = () => {
   return (
     <div>
@@ -16,12 +17,23 @@ const Aboutus = () => {
       </div>
       <div className='absolute top-0 hidden md:inline'>
       <Navbar/>
-      </div>
-      
+      </div>  
 
       <div className='flex md:flex-row flex-col items-center justify-between md:h-[100vh] md:mx-[10vw] mx-6'>
             <div>
-                <h1 className='md:text-4xl text-2xl font-semibold md:mt-8 mt-20  md:mb-16 mb-4 font-playfair'>Our Story</h1>
+                <img src={stock8} alt="" className='md:w-[32vw] my-6 rounded-2xl'/>
+            </div>
+            <div>
+                <h1 className='md:text-4xl text-2xl font-semibold md:mt-8 mt-20  md:mb-16 mb-4 font-playfair'>Who are we?</h1>
+                <p className='md:w-[40vw] md:text-base md:mb-0 mb-4 text-justify font-opensans'>Nestled amidst sylvan terrains just a few kilometres away from Karnal, lies Aanantha Gram, a serene 15-acre organic haven dedicated solely to your holistic well-being. Offering a rejuvenating landscape stretched across 14 acres, with 1.5 acres of open space, Anantha Gram derives its vitality from its connection with Mother Nature.<br /> <br /> 
+Striving to create a space where individuals can thrive mentally, physically and spiritually, Anantha Gram prides itself for its organic produce which is cultivated using sustainable farming practices. Our cooks prepare healthy meals and also assist you in picking your favourite farm veggies, delivering a nourishing experience for your mind, body and soul. 
+</p>
+                {/* <button className='md:px-8 px-4 md:py-3 py-2 border-[#56B3C2] text-[#56B3C2] font-bold md:text-sm text-xs rounded-full border-2'>Learn More</button> */}
+            </div>
+        </div>
+      <div className='flex md:flex-row flex-col items-center justify-between md:mx-[10vw] mx-6'>
+            <div>
+                <h1 className='md:text-4xl text-2xl font-semibold md:mt-0 mt-20 md:mb-16 mb-4 font-playfair'>Our Story</h1>
                 <p className='md:w-[40vw] md:text-base md:mb-8 mb-4 text-justify font-opensans'>We live in a world plagued with stress and disease. The average person today, leads a lifestyle that is far from conducive to the healthy functioning of their mind, body and soul; and the Chaudhry family has been no exception to that condition. Plagued by mental stress, emotional upheavals and declining physical health, they realised it was time to make sustainable lifestyle shifts for healthier living. <br /> <br /> Resorting to alternative <b>healing modalities</b> and <b>adopting mindful ways</b> of living tremendously contributed towards creating a greater sense of inner peace for them and they’ve since become advocates of sustainable living for the self and our precious Mother Earth. As they continue to tread on this path to heal themselves, Anantha Gram is their endeavour to share this knowledge with other seekers so we can together, create a more healed, loving and peaceful world whose inhabitants are able to rise in regard for their two beautiful but fleeting homes - their beloved bodies and our precious Gaia. 
 </p>
                 {/* <button className='md:px-8 px-4 md:py-3 py-2 border-[#56B3C2] text-[#56B3C2] font-bold md:text-sm text-xs rounded-full border-2'>Learn More</button> */}

@@ -58,7 +58,7 @@ function Contact() {
     <div className='flex md:flex-row flex-col items-center justify-between md:mt-24 md:mx-[10vw] mx-6 mt-20 bg-gradient-contact'>
         <div className='flex flex-col'>
             {/* <h1 className='text-sm font-Secondary-bold text-[#1B2377] md:mb-10 mb-4'><Signin/></h1> */}
-            <div className="bg-[#56B3C2] md:w-[40vw] px-8 md:py-16 py-8 rounded-2xl ">
+            <div className="bg-[#B9CF9B] md:w-[40vw] px-8 md:py-16 py-8 rounded-2xl ">
             <h1 className='md:text-4xl text-2xl font-playfair text-white md:mb-12 mb-2 font-bold'>Got Questions?</h1>
             <h1 className='md:text-2xl text-base font-opensans text-white md:mb-28 mb-12 font-medium'>Get in Touch with us.</h1>
             <div className="flex flex-row mb-8">
@@ -96,7 +96,7 @@ function Contact() {
                 <textarea required type="text" name="message"  placeholder='Write your message.....' cols="10" rows="6" className='outline-none p-2 rounded-md border-[1.5px] border-gray-300 font-Secondary-medium md:text-sm text-xs md:w-[28vw] w-[80vw]'/>
         </div>
         <div>
-            <button type="submit" className='font-Secondary-semibold bg-[#56B3C2] font-opensans text-white rounded-full font-bold md:text-sm text-xs py-3 px-8 contact-button' >Send Message</button>
+            <button type="submit" className='font-Secondary-semibold bg-[#B9CF9B] font-opensans text-white rounded-full font-bold md:text-sm text-xs py-3 px-8 contact-button' >Send Message</button>
         </div>
         </div>
         </form>
