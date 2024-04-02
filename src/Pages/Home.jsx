@@ -45,14 +45,14 @@ const Home = () => {
       <Navbar/>
       </div>
       <div>
-        <div className='flex justify-center items-center h-screen'>
+        <div className='flex justify-center items-center md:h-screen'>
   <div className='text-center p-6'>
-    <h1 className='text-3xl md:text-6xl mt-10 md:mt-0 text-white font-semibold mb-16 font-playfair'>Take a leap into self-discovery</h1>
+    <h1 className='text-2xl md:text-6xl mt-12 md:mt-0 text-white font-semibold md:mb-16 mb-2 font-playfair'>Take a leap into self-discovery</h1>
     {/* <h2 className='text-sm md:text-2xl text-white md:w-[100vw] mb-12'>Book yourself for an ayurvedic spree, nourishing and revitalising your body and soul.</h2> */}
     <button className='text-black font-bold text-xs md:text-lg px-4 font-opensans md:px-8 py-2 md:py-3 bg-[#F7E8D0] rounded-full transition duration-300 ease-in-out transform hover:scale-105 hover:bg-white hover:text-[#56B3C2] hover:shadow-lg'>Book Now</button>
   </div>
 </div>
-<img src={Hero} alt="" className='w-full absolute top-0 left-0 z-[-1]'/>
+<img src={Hero} alt="" className='w-full py-4 absolute top-0 left-0 z-[-1]'/>
       </div>
 
 
@@ -87,9 +87,9 @@ Striving to create a space where individuals can thrive mentally, physically and
             </div>
         </div>
 
-        <div className='flex flex-col items-center my-16'>
-        <h1 className='font-playfair text-black/80 font-semibold text-5xl'>Gallery</h1>
-        <div className='mx-[10vw] mt-[8vh] flex flex-row items-center justify-center'>
+        <div className='flex flex-col items-center md:my-16 my-8'>
+        <h1 className='font-playfair text-black/80 font-semibold md:text-5xl text-2xl'>Gallery</h1>
+        <div className='mx-[10vw] md:mt-[8vh] mt-[4vh] flex flex-row items-center justify-center'>
           
         <Swiper
           slidesPerView={1}
@@ -103,69 +103,69 @@ Striving to create a space where individuals can thrive mentally, physically and
         >
           
             <SwiperSlide>
-            <div className='flex flex-row items-center justify-center gap-8'>
-              <img src={stock2} alt="" className='w-[32vw] rounded-xl' />
-              <img src={stock4} alt="" className='w-[32vw] rounded-xl' />
+            <div className='flex flex-row items-center justify-center md:md:gap-8 gap-4'>
+              <img src={stock2} alt="" className='md:md:w-[32vw] w-[35vw] w-[35vw] rounded-xl' />
+              <img src={stock4} alt="" className='md:md:w-[32vw] w-[35vw] w-[35vw] rounded-xl' />
             </div>
             </SwiperSlide>
             <SwiperSlide>
-            <div className='flex flex-row items-center justify-center gap-8'>
-              <img src={stock1} alt="" className='w-[32vw] rounded-xl' />
-              <img src={stock2} alt="" className='w-[32vw] rounded-xl' />
+            <div className='flex flex-row items-center justify-center md:gap-8 gap-4'>
+              <img src={stock1} alt="" className='md:w-[32vw] w-[35vw] rounded-xl' />
+              <img src={stock2} alt="" className='md:w-[32vw] w-[35vw] rounded-xl' />
             </div>
             </SwiperSlide>
             <SwiperSlide>
-            <div className='flex flex-row items-center justify-center gap-8'>
-              <img src={stock3} alt="" className='w-[32vw] rounded-xl' />
-              <img src={stock4} alt="" className='w-[32vw] rounded-xl' />
+            <div className='flex flex-row items-center justify-center md:gap-8 gap-4'>
+              <img src={stock3} alt="" className='md:w-[32vw] w-[35vw] rounded-xl' />
+              <img src={stock4} alt="" className='md:w-[32vw] w-[35vw] rounded-xl' />
             </div>
             </SwiperSlide>
             <SwiperSlide>
-            <div className='flex flex-row items-center justify-center gap-8'>
-              <img src={stock5} alt="" className='w-[32vw] rounded-xl' />
-              <img src={stock6} alt="" className='w-[32vw] rounded-xl' />
+            <div className='flex flex-row items-center justify-center md:gap-8 gap-4'>
+              <img src={stock5} alt="" className='md:w-[32vw] w-[35vw] rounded-xl' />
+              <img src={stock6} alt="" className='md:w-[32vw] w-[35vw] rounded-xl' />
             </div>
             </SwiperSlide>
             <SwiperSlide>
-            <div className='flex flex-row items-center justify-center gap-8'>
-              <img src={stock7} alt="" className='w-[32vw] rounded-xl' />
-              <img src={stock8} alt="" className='w-[32vw] rounded-xl' />
+            <div className='flex flex-row items-center justify-center md:gap-8 gap-4'>
+              <img src={stock7} alt="" className='md:w-[32vw] w-[35vw] rounded-xl' />
+              <img src={stock8} alt="" className='md:w-[32vw] w-[35vw] rounded-xl' />
             </div>
             </SwiperSlide>
             <SwiperSlide>
-            <div className='flex flex-row items-center justify-center gap-8'>
-              <img src={stock9} alt="" className='w-[32vw] rounded-xl' />
-              <img src={stock10} alt="" className='w-[32vw] rounded-xl' />
+            <div className='flex flex-row items-center justify-center md:gap-8 gap-4'>
+              <img src={stock9} alt="" className='md:w-[32vw] w-[35vw] rounded-xl' />
+              <img src={stock10} alt="" className='md:w-[32vw] w-[35vw] rounded-xl' />
             </div>
             </SwiperSlide>
             <SwiperSlide>
-            <div className='flex flex-row items-center justify-center gap-8'>
-              <img src={stock11} alt="" className='w-[32vw] rounded-xl' />
-              <img src={stock12} alt="" className='w-[32vw] rounded-xl' />
+            <div className='flex flex-row items-center justify-center md:gap-8 gap-4'>
+              <img src={stock11} alt="" className='md:w-[32vw] w-[35vw] rounded-xl' />
+              <img src={stock12} alt="" className='md:w-[32vw] w-[35vw] rounded-xl' />
             </div>
             </SwiperSlide>
             <SwiperSlide>
-            <div className='flex flex-row items-center justify-center gap-8'>
-              <img src={stock13} alt="" className='w-[32vw] rounded-xl' />
-              <img src={stock14} alt="" className='w-[32vw] rounded-xl' />
+            <div className='flex flex-row items-center justify-center md:gap-8 gap-4'>
+              <img src={stock13} alt="" className='md:w-[32vw] w-[35vw] rounded-xl' />
+              <img src={stock14} alt="" className='md:w-[32vw] w-[35vw] rounded-xl' />
             </div>
             </SwiperSlide>
             <SwiperSlide>
-            <div className='flex flex-row items-center justify-center gap-8'>
-              <img src={stock15} alt="" className='w-[32vw] rounded-xl' />
-              <img src={stock16} alt="" className='w-[32vw] rounded-xl' />
+            <div className='flex flex-row items-center justify-center md:gap-8 gap-4'>
+              <img src={stock15} alt="" className='md:w-[32vw] w-[35vw] rounded-xl' />
+              <img src={stock16} alt="" className='md:w-[32vw] w-[35vw] rounded-xl' />
             </div>
             </SwiperSlide>
             <SwiperSlide>
-            <div className='flex flex-row items-center justify-center gap-8'>
-              <img src={stock17} alt="" className='w-[32vw] rounded-xl' />
-              <img src={stock18} alt="" className='w-[32vw] rounded-xl' />
+            <div className='flex flex-row items-center justify-center md:gap-8 gap-4'>
+              <img src={stock17} alt="" className='md:w-[32vw] w-[35vw] rounded-xl' />
+              <img src={stock18} alt="" className='md:w-[32vw] w-[35vw] rounded-xl' />
             </div>
             </SwiperSlide>
             <SwiperSlide>
-            <div className='flex flex-row items-center justify-center gap-8'>
-              <img src={stock19} alt="" className='w-[32vw] rounded-xl' />
-              <img src={stock20} alt="" className='w-[32vw] rounded-xl' />
+            <div className='flex flex-row items-center justify-center md:gap-8 gap-4'>
+              <img src={stock19} alt="" className='md:w-[32vw] w-[35vw] rounded-xl' />
+              <img src={stock20} alt="" className='md:w-[32vw] w-[35vw] rounded-xl' />
             </div>
             </SwiperSlide>
         </Swiper>

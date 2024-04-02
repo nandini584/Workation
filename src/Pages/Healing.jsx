@@ -46,29 +46,29 @@ const Healing = () => {
   const [currentActivity, setCurrentActivity] = useState(activities[0]); // Default to Yoga
 
   return (
-    <div>
+<div>
       <div className='inline md:hidden z-[100]'>
         <NavbarMini/>
       </div>
       <div className='absolute top-0 hidden md:inline'>
         <Navbar/>
       </div>
-      <div className='flex flex-row mx-[10vw] justify-center'>
-        <div className='flex flex-col w-[40vw] bg-[#F7E8D0]/40 h-[100vh] overflow-y-scroll rounded-3xl px-12 mt-28 pb-4 mb-10'>
+      <div className='flex md:flex-row flex-col md:mx-[10vw] mx-6 justify-center'>
+        <div className='flex flex-col md:w-[40vw] bg-[#F7E8D0]/40 md:h-[100vh] rounded-3xl md:px-12 px-4 md:mt-28 mt-20 md:mb-10'>
           {activities.map((activity) => (
-            <div key={activity.id} className='flex flex-row items-center justify-start mt-10 cursor-pointer' onClick={() => setCurrentActivity(activity)}>
-              <img src={activity.image} alt="" className='w-44 mr-6'/>
+            <div key={activity.id} className='flex flex-row items-center justify-start my-5 cursor-pointer' onClick={() => setCurrentActivity(activity)}>
+              <img src={activity.image} alt="" className='md:w-44 w-40 mr-6'/>
               <div>
-                  <h1 className='font-semibold text-lg text-black/90 mt-2 font-opensans' style={{ color: currentActivity.id === activity.id ? '#56B3C2' : 'inherit' }}>{activity.name}</h1>
-                  <h1 className='font-medium text-sm text-black/60 mt-2 font-opensans'>{activity.subheading}</h1>
+                  <h1 className='font-semibold md:text-lg text-black/90 mt-2 font-opensans' style={{ color: currentActivity.id === activity.id ? '#56B3C2' : 'inherit' }}>{activity.name}</h1>
+                  <h1 className='font-medium md:text-sm text-xs text-black/60 mt-2 font-opensans'>{activity.subheading}</h1>
               </div>
             </div>
           ))}
         </div>
-        <div className='w-[60vw] flex flex-col items-start mt-28 px-10 overflow-y-scroll h-[100vh]'>
-          <img src={currentActivity.image} alt="" className='w-[35vw]'/>
-          <h1 className='text-xl font-bold ml-2 w-[35vw] mb-4 mt-8 font-opensans'>{currentActivity.name}</h1>
-          <h1 className='text-base ml-2 w-[35vw] font-opensans'>{currentActivity.description}</h1>
+        <div className='md:w-[60vw] flex flex-col items-start md:mt-28 mt-10 md:px-10 overflow-y-scroll h-[100vh]'>
+          <img src={currentActivity.image} alt="" className='md:w-[35vw]'/>
+          <h1 className='text-xl font-bold ml-2 md:w-[35vw] mb-4 mt-8 font-opensans'>{currentActivity.name}</h1>
+          <h1 className='md:text-base text-sm ml-2 md:w-[35vw] font-opensans'>{currentActivity.description}</h1>
         </div>
       </div>
     </div>
