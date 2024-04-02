@@ -8,7 +8,8 @@ export default {
     extend: {
       // Extending the theme to include custom fonts
       fontFamily: {
-        'playfair': ['"Playfair Display"', 'serif'] // Add 'Playfair Display' font family
+        'playfair': ['"Poppins"', 'sans-serif'], // Add 'Playfair Display' font family,
+        'opensans': ['"Open Sans"', 'sans-serif']
       },
     },
   },

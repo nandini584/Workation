@@ -60,18 +60,18 @@ function Contact() {
             {/* <h1 className='text-sm font-Secondary-bold text-[#1B2377] md:mb-10 mb-4'><Signin/></h1> */}
             <div className="bg-[#56B3C2] w-[40vw] px-8 py-16 rounded-2xl ">
             <h1 className='md:text-4xl text-2xl font-playfair text-white md:mb-12 mb-2 font-bold'>Got Questions?</h1>
-            <h1 className='md:text-2xl text-2xl font-playfair text-white md:mb-28 mb-2 font-medium'>Get in Touch with us.</h1>
+            <h1 className='md:text-2xl text-2xl font-opensans text-white md:mb-28 mb-2 font-medium'>Get in Touch with us.</h1>
             <div className="flex flex-row mb-8">
             <PhoneInTalkIcon className="text-white mr-2"/>
-            <h1 className="text-white text-lg font-semibold">+1012 3456 789</h1>
+            <h1 className="text-white text-lg font-semibold font-opensans">+1012 3456 789</h1>
             </div>
             <div className="flex flex-row mb-8">
                 <LocationOnIcon className="text-white mr-2"/>
-            <h1 className="text-white text-lg font-semibold">132 Dartmouth Street Boston, <br /> Massachusetts 02156 United States</h1>
+            <h1 className="text-white text-lg font-semibold font-opensans">132 Dartmouth Street Boston, <br /> Massachusetts 02156 United States</h1>
             </div>
             <div className="flex flex-row">
                 <EmailIcon className="text-white mr-2"/>
-            <h1 className="text-white text-lg font-semibold">demo@gmail.com</h1>
+            <h1 className="text-white text-lg font-semibold font-opensans">demo@gmail.com</h1>
             </div>
             </div>
             {/* <img src={Contact} alt="" /> */}
@@ -80,23 +80,23 @@ function Contact() {
         <form action="" >
             <div className='md:py-12 md:px-12 p-6 drop-shadow-form md:rounded-2xl rounded-lg bg-white'>
         <div className='md:mb-10 mb-7'>
-                <h1 className='text-xs text-black opacity-60 font-Secondary-medium md:mb-3 mb-1'>Full Name</h1>
+                <h1 className='text-xs text-black opacity-60 font-Secondary-medium md:mb-3 mb-1 font-opensans'>Full Name</h1>
                 <input required type="text" name="from_name" placeholder='Name' className='outline-none p-2 rounded-md border-[1.5px] border-gray-300 font-Secondary-medium text-sm md:w-[28vw] w-[60vw]'/>
         </div>
         <div className='md:mb-10 mb-7'>
-                <h1 className='text-xs text-black opacity-60 font-Secondary-medium md:mb-3 mb-1'>Email</h1>
+                <h1 className='text-xs text-black opacity-60 font-Secondary-medium md:mb-3 mb-1 font-opensans'>Email</h1>
                 <input required type="email" name="from_email" placeholder='Email' className='outline-none p-2 rounded-md border-[1.5px] border-gray-300 font-Secondary-medium text-sm md:w-[28vw] w-[60vw]' />
         </div>
        <div className="md:mb-10 mb-7">
-            <h1 className='text-xs text-black opacity-60 font-Secondary-medium md:mb-3 mb-1'>Phone Number</h1>
+            <h1 className='text-xs text-black opacity-60 font-Secondary-medium md:mb-3 mb-1 font-opensans'>Phone Number</h1>
                 <input required type="phone" name="from_phone" placeholder='Phone Number' className='outline-none p-2 rounded-md border-[1.5px] border-gray-300 font-Secondary-medium text-sm md:w-[28vw] w-[60vw]' />
        </div>
         <div className='md:mb-10 mb-7'>
-                <h1 className='text-xs text-black opacity-60 font-Secondary-medium mb-3'>Message</h1>
+                <h1 className='text-xs text-black opacity-60 font-Secondary-medium mb-3 font-opensans'>Message</h1>
                 <textarea required type="text" name="message"  placeholder='Write your message.....' cols="10" className='outline-none p-2 rounded-md border-[1.5px] border-gray-300 font-Secondary-medium md:text-sm text-xs md:w-[28vw] w-[60vw]'/>
         </div>
         <div>
-            <button type="submit" className='font-Secondary-semibold bg-[#56B3C2] text-white rounded-full font-bold md:text-sm text-xs py-3 px-8 contact-button' >Send Message</button>
+            <button type="submit" className='font-Secondary-semibold bg-[#56B3C2] font-opensans text-white rounded-full font-bold md:text-sm text-xs py-3 px-8 contact-button' >Send Message</button>
         </div>
         </div>
         </form>

@@ -7,29 +7,29 @@ const Footer = () => {
             
             <div className='flex flex-col flex-end mb-8'>
                 <img src={Logo} alt="" className='w-32 md:w-28 mb-4'/>
-                <h1 className="font-Secondary-medium text-black/70 text-base mt-4 md:w-[22vw]">Book yourself for an ayurvedic spree, nourishing and revitalising your body and soul.</h1>
+                <h1 className="font-Secondary-medium text-black/70 text-base mt-4 md:w-[22vw] font-opensans">Book yourself for an ayurvedic spree, nourishing and revitalising your body and soul.</h1>
             </div>
             <div className='flex md:flex-row flex-col justify-between md:w-[45vw]'>
             <div className=''>
                 <h1 className='font-semibold text-lg mb-6'>Pages</h1>
-                <Link to="/"><h1 className='font-regular text-base mb-5'>Home</h1></Link>
-                <Link to="/activities"><h1 className='font-regular text-base mb-5'>Activities</h1></Link>
-                <Link to="/facilities"><h1 className='font-regular text-base mb-5'>Facilities</h1></Link>
-                <Link to="/about"><h1 className='font-regular text-base mb-5'>About</h1></Link>
-                <Link to="/contact"><h1 className='font-regular text-base mb-5'>Contact</h1></Link>
+                <Link to="/"><h1 className='font-regular text-base mb-5 font-opensans'>Home</h1></Link>
+                {/* <Link to="/activities"><h1 className='font-regular text-base mb-5 font-opensans'>Activities</h1></Link>
+                <Link to="/facilities"><h1 className='font-regular text-base mb-5 font-opensans'>Facilities</h1></Link> */}
+                <Link to="/about"><h1 className='font-regular text-base mb-5 font-opensans'>About</h1></Link>
+                <Link to="/contact"><h1 className='font-regular text-base mb-5 font-opensans'>Contact</h1></Link>
             </div>
             <div className=''>
-                <h1 className='font-semibold text-lg mb-6'>Contact us</h1>
-                <Link><h1 className='font-regular text-base mb-5'>Phone</h1></Link>
-                <Link><h1 className='font-regular text-base mb-5'>Email</h1></Link>
+                <h1 className='font-semibold text-lg mb-6 font-opensans'>Contact us</h1>
+                <Link><h1 className='font-regular text-base mb-5 font-opensans'>Phone</h1></Link>
+                <Link><h1 className='font-regular text-base mb-5 font-opensans'>Email</h1></Link>
             </div>
            
             <div>
-                <h1 className='font-semibold text-lg mb-2 md:mt-0 mt-0'>Social Media</h1>
-                <a href="" target="_blank"><h1 className='font-regular text-base mb-5'>Facebook</h1></a>
-                <a href="" target="_blank"><h1 className='font-regular text-base mb-5'>Instagram</h1></a>
-                <a href="" target="_blank"><h1 className='font-regular text-base mb-5'>Linkedin</h1></a>
-                <a href="" target="_blank"><h1 className='font-regular text-base mb-5'>X</h1></a>
+                <h1 className='font-semibold text-lg mb-2 md:mt-0 mt-0 font-opensans'>Social Media</h1>
+                <a href="" target="_blank"><h1 className='font-regular text-base mb-5 font-opensans'>Facebook</h1></a>
+                <a href="" target="_blank"><h1 className='font-regular text-base mb-5 font-opensans'>Instagram</h1></a>
+                <a href="" target="_blank"><h1 className='font-regular text-base mb-5 font-opensans'>Linkedin</h1></a>
+                <a href="" target="_blank"><h1 className='font-regular text-base mb-5 font-opensans'>X</h1></a>
             </div> 
             </div>
         </div>

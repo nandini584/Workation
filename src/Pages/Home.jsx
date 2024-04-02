@@ -31,9 +31,9 @@ const Home = () => {
       <div>
         <div className='flex justify-center items-center h-screen'>
   <div className='text-center p-6'>
-    <h1 className='text-3xl md:text-7xl mt-10 md:mt-0 text-white font-semibold mb-16 font-playfair'>Take a leap into self-discovery</h1>
+    <h1 className='text-3xl md:text-6xl mt-10 md:mt-0 text-white font-semibold mb-16 font-playfair'>Take a leap into self-discovery</h1>
     {/* <h2 className='text-sm md:text-2xl text-white md:w-[100vw] mb-12'>Book yourself for an ayurvedic spree, nourishing and revitalising your body and soul.</h2> */}
-    <button className='text-black font-bold text-xs md:text-lg px-4 md:px-8 py-2 md:py-3 bg-[#F7E8D0] rounded-full transition duration-300 ease-in-out transform hover:scale-105 hover:bg-white hover:text-[#56B3C2] hover:shadow-lg'>Book Now</button>
+    <button className='text-black font-bold text-xs md:text-lg px-4 font-opensans md:px-8 py-2 md:py-3 bg-[#F7E8D0] rounded-full transition duration-300 ease-in-out transform hover:scale-105 hover:bg-white hover:text-[#56B3C2] hover:shadow-lg'>Book Now</button>
   </div>
 </div>
 <img src={Hero} alt="" className='w-full absolute top-0 left-0 z-[-1]'/>
@@ -43,7 +43,7 @@ const Home = () => {
         <div className='flex md:flex-row flex-col items-center justify-between md:h-[100vh] md:mx-[10vw] mx-6'>
             <div>
                 <h1 className='md:text-4xl text-2xl mt-10 md:mb-20 mb-6 font-semibold font-playfair'>Who are We?</h1>
-                <p className='md:w-[38vw] md:text-lg md:mb-14 mb-6 text-justify'>Nestled amidst sylvan terrains just a few kilometres away from Karnal, lies Aanantha Gram, a serene 15-acre organic haven dedicated solely to your holistic well-being. Offering a rejuvenating landscape stretched across 14 acres, with 1.5 acres of open space, Anantha Gram derives its vitality from its connection with Mother Nature.<br /> <br /> 
+                <p className='md:w-[38vw] md:text-lg md:mb-14 mb-6 text-justify font-opensans'>Nestled amidst sylvan terrains just a few kilometres away from Karnal, lies Aanantha Gram, a serene 15-acre organic haven dedicated solely to your holistic well-being. Offering a rejuvenating landscape stretched across 14 acres, with 1.5 acres of open space, Anantha Gram derives its vitality from its connection with Mother Nature.<br /> <br /> 
 Striving to create a space where individuals can thrive mentally, physically and spiritually, Anantha Gram prides itself for its organic produce which is cultivated using sustainable farming practices. Our cooks prepare healthy meals and also assist you in picking your favourite farm veggies, delivering a nourishing experience for your mind, body and soul. 
 </p>
                 <Link to="/about"><button className='md:px-8 px-4 md:py-3 py-2 border-[#56B3C2] text-[#56B3C2] font-bold md:text-sm text-xs rounded-full border-2'>Learn More</button></Link>
@@ -58,11 +58,11 @@ Striving to create a space where individuals can thrive mentally, physically and
             <div className='flex flex-row items-center flex-wrap gap-6 justify-center md:mt-8 mt-4'>
                <Link to="/weekly-activities"><div className='flex flex-col items-center justify-center'>
                     <img src={SI1} alt="" className='md:w-[30vw] rounded-xl hover:border-2 hover:border-[#56B3C2]'/>
-                    <h1 className='font-semibold text-lg text-black/70 mt-2'>Weekly Activities</h1>
+                    <h1 className='font-semibold text-lg text-black/70 mt-2 font-opensans'>Weekly Activities</h1>
                 </div></Link> 
                 <div className='flex flex-col items-center justify-center'>
                     <img src={SI2} alt="" className='md:w-[30vw] rounded-xl hover:border-2 hover:border-[#56B3C2]'/>
-                    <h1 className='font-semibold text-lg text-black/70 mt-2'>Healing Modalities</h1>
+                    <h1 className='font-semibold text-lg text-black/70 mt-2 font-opensans'>Healing Modalities</h1>
                 </div>
             </div>
         </div>
