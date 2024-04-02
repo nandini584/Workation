@@ -7,7 +7,7 @@ const Footer = () => {
             
             <div className='flex flex-col flex-end mb-8'>
                 <img src={Logo} alt="" className='w-32 md:w-28 mb-4'/>
-                <h1 className="font-Secondary-medium text-black/70 text-base mt-4 md:w-[22vw] font-opensans">Book yourself for an ayurvedic spree, nourishing and revitalising your body and soul.</h1>
+                {/* <h1 className="font-Secondary-medium text-black/70 text-base mt-4 md:w-[22vw] font-opensans">Book yourself for an ayurvedic spree, nourishing and revitalising your body and soul.</h1> */}
             </div>
             <div className='flex md:flex-row flex-col justify-between md:w-[45vw]'>
             <div className=''>
@@ -29,13 +29,13 @@ const Footer = () => {
                 <a href="" target="_blank"><h1 className='font-regular text-base mb-5 font-opensans'>Facebook</h1></a>
                 <a href="" target="_blank"><h1 className='font-regular text-base mb-5 font-opensans'>Instagram</h1></a>
                 <a href="" target="_blank"><h1 className='font-regular text-base mb-5 font-opensans'>Linkedin</h1></a>
-                <a href="" target="_blank"><h1 className='font-regular text-base mb-5 font-opensans'>X</h1></a>
+                {/* <a href="" target="_blank"><h1 className='font-regular text-base mb-5 font-opensans'>X</h1></a> */}
             </div> 
             </div>
         </div>
         <hr className='border-[1.5px] border-gray-300'/>
         <div className='md:flex md:flex-row md:items-center md:justify-between md:py-2 py-0 md:w-full flex-col'>
-            <h1 className='md:text-sm text-xs mt-2 md:mt-0'>qwerty</h1>
+            <h1 className='md:text-sm text-xs mt-2 md:mt-0'>© 2024 Anantha Gram. All Rights Reserved</h1>
             
         </div>
     </div>
