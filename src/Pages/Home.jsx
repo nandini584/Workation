@@ -1,12 +1,28 @@
 import React from 'react'
 import Hero from "../assets/Home/hero.png"
-import Whorv from "../assets/Home/whorv.svg"
+import Whorv from "../assets/Home/Whorv.jpg"
 import SI1 from "../assets/Home/dest1.svg"
 import SI2 from "../assets/Home/dest2.svg"
-import stock1 from "../assets/Home/stockimg 3.png"
-import stock2 from "../assets/Home/stockimg 5.svg"
-import stock3 from "../assets/Home/stockimg 6.svg"
-import stock4 from "../assets/Home/stockimg 4.svg"
+import stock1 from "../assets/Home/Gallery/11.png"
+import stock2 from "../assets/Home/Gallery/12.png"
+import stock3 from "../assets/Home/Gallery/21.png"
+import stock4 from "../assets/Home/Gallery/21.png"
+import stock5 from "../assets/Home/Gallery/31.png"
+import stock6 from "../assets/Home/Gallery/32.png"
+import stock7 from "../assets/Home/Gallery/33.png"
+import stock8 from "../assets/Home/Gallery/34.png"
+import stock9 from "../assets/Home/Gallery/41.png"
+import stock10 from "../assets/Home/Gallery/42.png"
+import stock11 from "../assets/Home/Gallery/51.png"
+import stock12 from "../assets/Home/Gallery/52.png"
+import stock13 from "../assets/Home/Gallery/61.png"
+import stock14 from "../assets/Home/Gallery/62.png"
+import stock15 from "../assets/Home/Gallery/71.png"
+import stock16 from "../assets/Home/Gallery/72.png"
+import stock17 from "../assets/Home/Gallery/81.png"
+import stock18 from "../assets/Home/Gallery/82.png"
+import stock19 from "../assets/Home/Gallery/91.png"
+import stock20 from "../assets/Home/Gallery/92.png"
 import 'swiper/css/autoplay';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Navigation, Pagination, Scrollbar } from 'swiper/modules';
@@ -49,7 +65,7 @@ Striving to create a space where individuals can thrive mentally, physically and
                 <Link to="/about"><button className='md:px-8 px-4 md:py-3 py-2 border-[#56B3C2] text-[#56B3C2] font-bold md:text-sm text-xs rounded-full border-2'>Learn More</button></Link>
             </div>
             <div>
-                <img src={Whorv} alt="" className='md:w-[30vw] my-6'/>
+                <img src={Whorv} alt="" className='md:w-[38vw] rounded-3xl my-6'/>
             </div>
         </div>
         <div className='bg-[#F7E8D0] md:px-[10vw] flex flex-col items-center px-6 md:py-[5vh] py-6'>
@@ -68,7 +84,7 @@ Striving to create a space where individuals can thrive mentally, physically and
         </div>
 
         <div className='flex flex-col items-center my-16'>
-        <h1 className='font-playfair text-black/80 font-bold text-5xl'>Gallery</h1>
+        <h1 className='font-playfair text-black/80 font-semibold text-5xl'>Gallery</h1>
         <div className='mx-[10vw] mt-[8vh] flex flex-row items-center justify-center'>
           
         <Swiper
@@ -91,7 +107,61 @@ Striving to create a space where individuals can thrive mentally, physically and
             <SwiperSlide>
             <div className='flex flex-row items-center justify-center gap-8'>
               <img src={stock1} alt="" className='w-[32vw] rounded-xl' />
+              <img src={stock2} alt="" className='w-[32vw] rounded-xl' />
+            </div>
+            </SwiperSlide>
+            <SwiperSlide>
+            <div className='flex flex-row items-center justify-center gap-8'>
               <img src={stock3} alt="" className='w-[32vw] rounded-xl' />
+              <img src={stock4} alt="" className='w-[32vw] rounded-xl' />
+            </div>
+            </SwiperSlide>
+            <SwiperSlide>
+            <div className='flex flex-row items-center justify-center gap-8'>
+              <img src={stock5} alt="" className='w-[32vw] rounded-xl' />
+              <img src={stock6} alt="" className='w-[32vw] rounded-xl' />
+            </div>
+            </SwiperSlide>
+            <SwiperSlide>
+            <div className='flex flex-row items-center justify-center gap-8'>
+              <img src={stock7} alt="" className='w-[32vw] rounded-xl' />
+              <img src={stock8} alt="" className='w-[32vw] rounded-xl' />
+            </div>
+            </SwiperSlide>
+            <SwiperSlide>
+            <div className='flex flex-row items-center justify-center gap-8'>
+              <img src={stock9} alt="" className='w-[32vw] rounded-xl' />
+              <img src={stock10} alt="" className='w-[32vw] rounded-xl' />
+            </div>
+            </SwiperSlide>
+            <SwiperSlide>
+            <div className='flex flex-row items-center justify-center gap-8'>
+              <img src={stock11} alt="" className='w-[32vw] rounded-xl' />
+              <img src={stock12} alt="" className='w-[32vw] rounded-xl' />
+            </div>
+            </SwiperSlide>
+            <SwiperSlide>
+            <div className='flex flex-row items-center justify-center gap-8'>
+              <img src={stock13} alt="" className='w-[32vw] rounded-xl' />
+              <img src={stock14} alt="" className='w-[32vw] rounded-xl' />
+            </div>
+            </SwiperSlide>
+            <SwiperSlide>
+            <div className='flex flex-row items-center justify-center gap-8'>
+              <img src={stock15} alt="" className='w-[32vw] rounded-xl' />
+              <img src={stock16} alt="" className='w-[32vw] rounded-xl' />
+            </div>
+            </SwiperSlide>
+            <SwiperSlide>
+            <div className='flex flex-row items-center justify-center gap-8'>
+              <img src={stock17} alt="" className='w-[32vw] rounded-xl' />
+              <img src={stock18} alt="" className='w-[32vw] rounded-xl' />
+            </div>
+            </SwiperSlide>
+            <SwiperSlide>
+            <div className='flex flex-row items-center justify-center gap-8'>
+              <img src={stock19} alt="" className='w-[32vw] rounded-xl' />
+              <img src={stock20} alt="" className='w-[32vw] rounded-xl' />
             </div>
             </SwiperSlide>
         </Swiper>

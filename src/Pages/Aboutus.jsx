@@ -40,13 +40,13 @@ const Aboutus = () => {
                 {/* <button className='md:px-8 px-4 md:py-3 py-2 border-[#56B3C2] text-[#56B3C2] font-bold md:text-sm text-xs rounded-full border-2'>Learn More</button> */}
             </div>
             <div>
-                <img src={Whorv} alt="" className='md:w-[32vw] my-6'/>
+                <img src={Meditation} alt="" className='md:w-[32vw] my-6'/>
             </div>
         </div>
 
         {/* <div className='bg-[#F7E8D0] flex md:flex-row flex-col items-center justify-between md:px-[10vw] px-6 md:py-[7vh] py-4'>
           <div>
-            <img src={Meditation} alt="" className='' />
+            <img src={} alt="" className='' />
           </div>
           <div>
           <h1 className='md:text-4xl text-2xl font-semibold md:mb-16 mb-4 mt-8 font-playfair'>Our Mission</h1>
