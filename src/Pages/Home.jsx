@@ -113,12 +113,12 @@ const Home = () => {
               <img src={stock2} alt="" className='md:w-[32vw] w-[35vw] rounded-xl' />
             </div>
             </SwiperSlide>
-            <SwiperSlide>
+            {/* <SwiperSlide>
             <div className='flex flex-row items-center justify-center md:gap-8 gap-4'>
               <img src={stock3} alt="" className='md:w-[32vw] w-[35vw] rounded-xl' />
               <img src={stock4} alt="" className='md:w-[32vw] w-[35vw] rounded-xl' />
             </div>
-            </SwiperSlide>
+            </SwiperSlide> */}
             <SwiperSlide>
             <div className='flex flex-row items-center justify-center md:gap-8 gap-4'>
               <img src={stock5} alt="" className='md:w-[32vw] w-[35vw] rounded-xl' />
