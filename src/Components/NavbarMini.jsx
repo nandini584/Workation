@@ -9,7 +9,7 @@ const NavbarMini = () => {
     setMenu(menu);
   }
   return (
-    <div className='flex flex-row items-center justify-between w-full px-6 py-1 bg-white backdrop-blur-md bg-opacity-20 fixed top-0'>
+    <div className='flex flex-row items-center justify-between w-full px-6 py-1 bg-white fixed top-0'>
         <img src={Logo} alt="" className='w-14' />
         <MenuIcon onClick={()=>handleClick(!menu)}/>
         {menu && (

@@ -17,7 +17,7 @@ const Facilities = () => {
             <img src={Property} alt="" className="md:w-[35vw] rounded-2xl"/>
             <div className='flex flex-col'>
                 <h1 className='md:text-4xl font-semibold text-2xl font-playfair md:mb-14 mb-4'>Property Description</h1>
-                <p className='md:w-[35vw] text-lg'>Aanantha Farms offers a rejuvenating escape that is streched across 14 acres, with 1.5 acres of open space. The ground floor features a spacious lounge, work station , fully-equipped kitchen area, and a cozy drawing room with a single bedroom. Upstairs, we have two additional bedrooms, a cozy living space, and a coffee/tea station. <br /><br /> Whether you prefer the ground floor's convenience or a lush green view from the first floor, the choice is at your disposal. Soak yourself in the tranquil vibes of the Aanantha Farms and strike the ideal harmony between productivity and peace.</p>
+                <p className='md:w-[35vw] text-lg'>Anantha Farms offers a rejuvenating escape that is streched across 14 acres, with 1.5 acres of open space. The ground floor features a spacious lounge, work station , fully-equipped kitchen area, and a cozy drawing room with a single bedroom. Upstairs, we have two additional bedrooms, a cozy living space, and a coffee/tea station. <br /><br /> Whether you prefer the ground floor's convenience or a lush green view from the first floor, the choice is at your disposal. Soak yourself in the tranquil vibes of the Anantha Farms and strike the ideal harmony between productivity and peace.</p>
                 <br />
                 {/* <ol className="list-decimal px-4">
                     <li className="">1.5 acre total foot area</li>

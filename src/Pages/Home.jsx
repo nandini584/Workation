@@ -59,7 +59,7 @@ const Home = () => {
         <div className='flex md:flex-row flex-col items-center justify-between md:h-[100vh] md:mx-[10vw] mx-6'>
             <div>
                 <h1 className='md:text-4xl text-2xl mt-10 md:mb-20 mb-6 font-semibold font-playfair'>Who are We?</h1>
-                <p className='md:w-[38vw] md:text-lg md:mb-14 mb-6 text-justify font-opensans'>Nestled amidst sylvan terrains just a few kilometres away from Karnal, lies Aanantha Gram, a serene 15-acre organic haven dedicated solely to your holistic well-being. Offering a rejuvenating landscape stretched across 14 acres, with 1.5 acres of open space, Anantha Gram derives its vitality from its connection with Mother Nature.<br /> <br />  
+                <p className='md:w-[38vw] md:text-lg md:mb-14 mb-6 text-justify font-opensans'>Nestled amidst sylvan terrains just a few kilometres away from Karnal, lies Anantha Gram, a serene 15-acre organic haven dedicated solely to your holistic well-being. Offering a rejuvenating landscape stretched across 14 acres, with 1.5 acres of open space, Anantha Gram derives its vitality from its connection with Mother Nature.<br /> <br />  
 </p>
                 <Link to="/about"><button className='md:px-8 px-4 md:py-3 py-2 border-[#56B3C2] text-[#56B3C2] font-bold md:text-sm text-xs rounded-full border-2'>Learn More</button></Link>
             </div>

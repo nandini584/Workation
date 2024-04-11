@@ -19,4 +19,8 @@
 
 .hero-button:hover {
   background-color: #c8baa3; /* Darker shade for hover effect, adjust color accordingly */
+} 
+
+:root{
+  --swiper-theme-color: #B9CF9B;
 }

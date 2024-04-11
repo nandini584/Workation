@@ -63,15 +63,16 @@ function Contact() {
             <h1 className='md:text-2xl text-base font-opensans text-white md:mb-28 mb-12 font-medium'>Get in Touch with us.</h1>
             <div className="flex flex-row mb-8">
             <PhoneInTalkIcon className="text-white mr-2"/>
-            <h1 className="text-white md:text-lg text-sm font-semibold font-opensans">+1012 3456 789</h1>
+            <h1 className="text-white md:text-lg text-sm font-semibold font-opensans">+91 9811529898</h1>
             </div>
             <div className="flex flex-row mb-8">
                 <LocationOnIcon className="text-white mr-2"/>
-            <h1 className="text-white md:text-lg text-sm font-semibold font-opensans">132 Dartmouth Street Boston, <br /> Massachusetts 02156 United States</h1>
+            <h1 className="text-white md:text-lg text-sm font-semibold font-opensans">Ranbir Nagar V&PO Kachwa District Karnal - 132001
+</h1>
             </div>
             <div className="flex flex-row">
                 <EmailIcon className="text-white mr-2"/>
-            <h1 className="text-white md:text-lg text-sm font-semibold font-opensans">demo@gmail.com</h1>
+            <h1 className="text-white md:text-lg text-sm font-semibold font-opensans">info@anathagram</h1>
             </div>
             </div>
             {/* <img src={Contact} alt="" /> */}
