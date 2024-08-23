@@ -3,6 +3,8 @@ import Meditation from "../assets/Activities/meditation.png"
 import Navbar from '../Components/NavbarDark';
 import NavbarMini from '../Components/NavbarMini';
 import stock8 from "../assets/Home/Gallery/32.png"
+import header from "../assets/About/header.jpg";
+
 const Aboutus = () => {
   return (
     <div>
@@ -13,17 +15,18 @@ const Aboutus = () => {
       <Navbar/>
       </div>  
 
+        <div className="mt-20 sm:mt-32"><img src={header} alt="" /></div>
       <div className='flex md:flex-row flex-col items-center justify-between md:h-[100vh] md:mx-[10vw] mx-6'>
             <div>
                 <img src={stock8} alt="" className='md:w-[32vw] my-6 rounded-2xl'/>
             </div>
             <div>
                 <h1 className='md:text-4xl text-2xl font-semibold md:mt-8 mt-20  md:mb-16 mb-4 font-playfair'>Who are we?</h1>
-                <p className='md:w-[40vw] md:text-base md:mb-0 mb-4 text-justify font-opensans'>Nestled amidst sylvan terrains just a few kilometres away from Karnal, lies Anantha Gram, a serene 15-acre organic haven dedicated solely to your holistic well-being. Offering a rejuvenating landscape stretched across 14 acres, with 1.5 acres of open space, Anantha Gram derives its vitality from its connection with Mother Nature. Our goal is to help you rediscover your connection with yourself and with Mother Earth through our unique combination of holistic healing experiences and mindfulness retreats. <br /><br />
+                <p className='md:w-[40vw] md:text-base md:mb-0 mb-4 text-justify font-opensans'>Nestled amidst sylvan terrains just a few kilometres away from Karnal lies Anantha Gram, a serene 13 acre haven dedicated solely to your holistic well-being. Offering a rejuvenating landscape stretched across 1.5 acres of open space, Anantha Gram derives vitality from its connection with Mother Nature. <br /><br />
 Striving to create a space where individuals can thrive mentally, physically and spiritually, Anantha Gram prides itself on its organic produce which is cultivated using sustainable farming practices. Our cooks prepare healthy meals and also assist you in picking your favourite farm veggies, delivering a nourishing experience for your mind, body and soul. We&apos;re dedicated to rekindle a way of living that is mindful and helps foster your personal growth. Anantha Gram endeavours to help you make a conscious stride towards experiencing self-healing and wellness amidst a nurturing environment. 
 
 </p>
-                {/* <button className='md:px-8 px-4 md:py-3 py-2 border-[#56B3C2] text-[#56B3C2] font-bold md:text-sm text-xs rounded-full border-2'>Learn More</button> */}
+                {/* <button className='md:px-8 px-4 md:py-3 py-2 border-[#B9CF9B] text-[#B9CF9B] font-bold md:text-sm text-xs rounded-full border-2'>Learn More</button> */}
             </div>
         </div>
       <div className='flex md:flex-row flex-col items-center justify-between md:mx-[10vw] mx-6'>
@@ -32,7 +35,7 @@ Striving to create a space where individuals can thrive mentally, physically and
                 <p className='md:w-[40vw] md:text-base md:mb-8 mb-4 text-justify font-opensans'>We live in a world plagued with stress and disease. The average person today, leads a lifestyle that is far from conducive to the healthy functioning of their mind, body and soul; and the Chaudhry family has been no exception to that condition. Plagued by mental stress, emotional upheavals and declining physical health, they realised it was time to make sustainable lifestyle shifts for healthier living. <br /><br />
                 Resorting to alternative <b>healing modalities</b> and <b>adopting mindful ways</b> of living tremendously contributed towards creating a greater sense of inner peace for them and they’ve since become advocates of sustainable living for the self and our precious Mother Earth. As they continue to tread on this path to heal themselves, Anantha Gram is their endeavour to share this knowledge with other seekers so we can together, create a more healed, loving and peaceful world whose inhabitants are able to rise in regard for their two beautiful but fleeting homes - their beloved bodies and our precious Gaia. 
 </p>
-                {/* <button className='md:px-8 px-4 md:py-3 py-2 border-[#56B3C2] text-[#56B3C2] font-bold md:text-sm text-xs rounded-full border-2'>Learn More</button> */}
+                {/* <button className='md:px-8 px-4 md:py-3 py-2 border-[#B9CF9B] text-[#B9CF9B] font-bold md:text-sm text-xs rounded-full border-2'>Learn More</button> */}
             </div>
             <div>
                 <img src={Meditation} alt="" className='md:w-[32vw] my-6'/>

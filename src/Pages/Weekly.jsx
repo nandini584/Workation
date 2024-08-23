@@ -56,7 +56,7 @@ const Weekly = () => {
             <div key={activity.id} className='flex flex-row items-center justify-start my-5 cursor-pointer' onClick={() => setCurrentActivity(activity)}>
               <img src={activity.image} alt="" className='md:w-44 w-40 mr-6'/>
               <div>
-                  <h1 className='font-semibold md:text-lg text-black/90 mt-2 font-opensans' style={{ color: currentActivity.id === activity.id ? '#56B3C2' : 'inherit' }}>{activity.name}</h1>
+                  <h1 className='font-semibold md:text-lg text-black/90 mt-2 font-opensans' style={{ color: currentActivity.id === activity.id ? '#B9CF9B' : 'inherit' }}>{activity.name}</h1>
                   <h1 className='font-medium md:text-sm text-xs text-black/60 mt-2 font-opensans'>{activity.subheading}</h1>
               </div>
             </div>

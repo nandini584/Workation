@@ -7,6 +7,7 @@ import NavbarMini from '../Components/NavbarMini';
 import PhoneInTalkIcon from '@mui/icons-material/PhoneInTalk';
 import LocationOnIcon from '@mui/icons-material/LocationOn';
 import EmailIcon from '@mui/icons-material/Email';
+import header from "../assets/About/header.jpg";
 // import emailjs from  '@emailjs/browser';
 // import {useState, useRef} from 'react'
 // import PhoneInput from 'react-phone-input-2'
@@ -55,6 +56,7 @@ function Contact() {
       <div className='absolute top-0 hidden md:inline'>
       <Navbar/>
       </div>
+      <div className="mt-20 sm:mt-32"><img src={header} alt="" /></div>
     <div className='flex md:flex-row flex-col items-center justify-between md:mt-24 md:mx-[10vw] mx-6 mt-20 bg-gradient-contact'>
         <div className='flex flex-col'>
             {/* <h1 className='text-sm font-Secondary-bold text-[#1B2377] md:mb-10 mb-4'><Signin/></h1> */}
@@ -63,7 +65,7 @@ function Contact() {
             <h1 className='md:text-2xl text-base font-opensans text-white md:mb-28 mb-12 font-medium'>Get in Touch with us.</h1>
             <div className="flex flex-row mb-8">
             <PhoneInTalkIcon className="text-white mr-2"/>
-            <h1 className="text-white md:text-lg text-sm font-semibold font-opensans">+91 9811529898</h1>
+            <h1 className="text-white md:text-lg text-sm font-semibold font-opensans">+91 9811529898, +91 7291930555</h1>
             </div>
             <div className="flex flex-row mb-8">
                 <LocationOnIcon className="text-white mr-2"/>
@@ -72,7 +74,7 @@ function Contact() {
             </div>
             <div className="flex flex-row">
                 <EmailIcon className="text-white mr-2"/>
-            <h1 className="text-white md:text-lg text-sm font-semibold font-opensans">info@anathagram</h1>
+            <h1 className="text-white md:text-lg text-sm font-semibold font-opensans">info@anathagram.com</h1>
             </div>
             </div>
             {/* <img src={Contact} alt="" /> */}

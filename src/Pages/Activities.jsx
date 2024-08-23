@@ -42,11 +42,11 @@ const Activities = () => {
         <div className='flex md:flex-row flex-col gap-6 items-center justify-between md:mx-[10vw] px-6 md:mt-20'>
           <div className='flex flex-col'>
             <div className='bg-[#F7E8D0] md:px-16 px-6 md:py-12 pt-8 md:rounded-2xl rounded-lg md:w-[38vw] pb-4 mt-4'>
-              <h1 className='text-[#56B3C2] text-2xl font-bold md:mb-8 mb-4 font-playfair'>Mindful Meadows Meditation retreats</h1>
+              <h1 className='text-[#B9CF9B] text-2xl font-bold md:mb-8 mb-4 font-playfair'>Mindful Meadows Meditation retreats</h1>
               <h2 className='text-black/70 text-sm'>Join our meditation retreats at Anantha Farms to commence on life-altering experience. In between the serene countryside of Karnal, our retreats offer a peaceful interval from your daily routine to immerse yourself in guided meditation sessions, mindfulness practices, and serene nature walks, rejuvenating your mind, body, and soul. Our experienced instructors and  pleasant surroundings create a perfect environment for you to facilitate you on the road to self-discovery and inner peace. Join us and experience the profound benefits of mindfulness amidst the beauty of Anantha Farms.</h2>
             </div>
             <div className='bg-[#F7E8D0] md:px-16 px-6 md:py-12 pt-8 md:rounded-2xl rounded-lg md:w-[38vw] pb-4 mt-4'>
-              <h1 className='text-[#56B3C2] text-2xl font-bold md:mb-8 mb-4 font-playfair'>Ashtanga Yoga sessions</h1>
+              <h1 className='text-[#B9CF9B] text-2xl font-bold md:mb-8 mb-4 font-playfair'>Ashtanga Yoga sessions</h1>
               <h2 className='text-black/70 text-sm'>At Anantha Farms, our Ashtanga Vinyasa Yoga retreats offer a revitalising experience to tap into the transformative practice of Ashtanga yoga. Deeply rooted in the tradition, guided by the principles of vinyasa krama and the Eight Limbs of Yoga, set amidst the tranquil surroundings of Anantha Farms, these workshops are a wonderful opportunity to immerse in the daily practice of cultivating strength, flexibility, and inner focus. Whether you're new to Ashtanga or an experienced practitioner, our retreats cater to all levels, offering personalised guidance and support along the way. Through deep breathing techniques like Ujjayi breath and the integration of bandhas, participants learn to harness the power of their breath and energy, fostering a sense of stability and presence on and off the mat.
 <br /> <br />
 Join us at Anantha Farms and embark on a transformative journey of Ashtanga Vinyasa Yoga, where movement, breath, and mindfulness unite to cultivate a deeper sense of well-being and connection.
@@ -58,7 +58,7 @@ Join us at Anantha Farms and embark on a transformative journey of Ashtanga Viny
           <div>
             <div className='bg-[#F7E8D0] md:px-10 px-6 py-6 md:rounded-2xl rounded-lg mb-4'>
              
-              <h1 className='text-[#56B3C2] text-2xl font-bold md:mb-4 mb-4 font-playfair'>Ayurveda treatments</h1>
+              <h1 className='text-[#B9CF9B] text-2xl font-bold md:mb-4 mb-4 font-playfair'>Ayurveda treatments</h1>
               <h2 className='text-black/70 text-sm'>At Anantha Farms, we embrace the timeless wisdom of Ayurveda, a holistic treatment rooted in the harmony of our mind, body, and spirit. Our Ayurvedic treatments and Nadi Pariksha (pulse diagnosis) sessions offer personalized healing journeys that honor the natural rhythms of life. With over 5,000 years of tradition, Ayurveda guides us on a circular path of wellness, addressing the root cause of any imbalances in the vata, pitta or kapha causing any medical afflictions whatsoever. From rejuvenating abhyanga massages to herbal remedies personalised according to your imbalance, our Ayurvedic Chikitsa (treatments) invite you to experience the healing powers of nature.</h2>
             </div>
               <img src={Stock2} alt="" className='md:h-[48vh] w-full mb-4' />

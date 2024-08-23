@@ -7,7 +7,7 @@ const Footer = () => {
             
             <div className='flex flex-col flex-end mb-8'>
                 <img src={Logo} alt="" className='w-32 md:w-28 mb-4'/>
-                {/* <h1 className="font-Secondary-medium text-black/70 text-base mt-4 md:w-[22vw] font-opensans">Book yourself for an ayurvedic spree, nourishing and revitalising your body and soul.</h1> */}
+                <h1 className="font-Secondary-medium text-black/70 text-black text-base mt-4 md:w-[22vw] font-opensans"><a href=""><strong>Ranbir Nagar V&PO Kachwa District Karnal - 132001</strong></a></h1>
             </div>
             <div className='flex md:flex-row flex-col justify-between md:w-[45vw]'>
             <div className=''>
@@ -20,8 +20,8 @@ const Footer = () => {
             </div>
             <div className=''>
                 <h1 className='font-semibold text-lg mb-6 font-opensans'>Contact us</h1>
-                <Link><h1 className='font-regular text-base mb-5 font-opensans'>Phone</h1></Link>
-                <Link><h1 className='font-regular text-base mb-5 font-opensans'>Email</h1></Link>
+                <Link to="tel:+919811529898"><h1 className='font-regular text-base mb-5 font-opensans'><a href="">Phone</a></h1></Link>
+                <Link hrefLang="email:info@anathagram.com"><h1 className='font-regular text-base mb-5 font-opensans'>Email</h1></Link>
             </div>
            
             <div>
